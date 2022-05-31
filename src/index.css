@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    Font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace; 
+}
+
+:root{
+    --grey: rgb(207, 219, 213);
+    --light-grey: rgb(232, 237, 223); 
+    --gold: rgb(245, 203, 92); 
+    --black: rgb(36, 36, 35);
+    --light-black: rgb(51, 53, 51); 
+    --VT323:'VT323', monospace;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(69 80 160); 
+    overflow-x: hidden;
+}
