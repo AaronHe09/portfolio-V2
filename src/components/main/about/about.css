@@ -1,15 +1,16 @@
-.about-content{
+#about-me{
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(to bottom, rgb(8 5 19) 15%, white);
     padding: 50px 10px;
+    background: url(/src/assets/rain.gif) center center no-repeat, linear-gradient(to bottom, rgb(8 5 19) 15%, rgba(0, 0, 0, 0.116)) ;
+    background-size: 100%;
 }
 
 /* Header */
 
-.about-content h1{
+#about-me h1{
     color: white;
     font-size: 6.5rem;
     font-family: var(--VT323);
@@ -18,7 +19,7 @@
     opacity: 0;
 }
 
-.about-content h1.reveal.active{
+#about-me h1.reveal.active{
     animation: flicker 1500ms forwards 300ms;
 }
 
@@ -37,7 +38,7 @@
 
 /* About me */
 
-.about-me{
+.about{
     padding: 20px;
     max-width: 500px;
     background-color: black;
@@ -46,8 +47,8 @@
     border-right: 10px solid var(--gold);
 }
 
-.about-me p,
-.about-me p span{
+.about p,
+.about p span{
     font-family: var(--VT323);
     font-weight: 400;
     font-size: 1.45rem;
@@ -55,19 +56,19 @@
     color: white;
 }
 
-.about-me p :nth-child(1){
+.about p :nth-child(1){
     color: 	rgb(250, 68, 84);
 }
 
-.about-me p :nth-child(2){
+.about p :nth-child(2){
     color: blueviolet;
 }
 
-.about-me p :nth-child(3){
+.about p :nth-child(3){
     color: 	pink;
 }
 
-.about-me p :nth-child(4){
+.about p :nth-child(4){
     color: 	lightskyblue;
 }
 
