@@ -14,3 +14,4 @@ import "./components/parallax/parallax.css";
 
 /* body */
 import "./components/main/main.css";
+import "./components/main/about/about.css";

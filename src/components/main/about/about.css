@@ -1,0 +1,79 @@
+.about-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(8 5 19) 15%, white);
+    padding: 50px 10px;
+}
+
+/* Header */
+
+.about-content h1{
+    color: white;
+    font-size: 6.5rem;
+    font-family: var(--VT323);
+    font-weight: 400;
+}
+
+/* About Container */
+
+.about-container{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+/* About me */
+
+.about-me{
+    padding: 20px;
+    max-width: 500px;
+    background-color: black;
+    border-radius: 10px;
+    border-left: 10px solid var(--gold);
+    border-right: 10px solid var(--gold);
+}
+
+.about-me p,
+.about-me p span{
+    font-family: var(--VT323);
+    font-weight: 400;
+    font-size: 1.45rem;
+    line-height: 1.2;
+    color: white;
+}
+
+.about-me p :nth-child(1){
+    color: 	rgb(250, 68, 84);
+}
+
+.about-me p :nth-child(2){
+    color: blueviolet;
+}
+
+.about-me p :nth-child(3){
+    color: 	pink;
+}
+
+.about-me p :nth-child(4){
+    color: 	lightskyblue;
+}
+
+/* Player */
+
+.player-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-content img{
+   width: 300px;
+}
+
+@media screen and (max-width: 830px) {
+    .about-container{
+        flex-direction: column;
+    }
+}
