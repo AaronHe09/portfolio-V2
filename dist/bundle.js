@@ -1357,6 +1357,34 @@ function preloader() {
 
 /***/ }),
 
+/***/ "./src/components/scroll/scroll.js":
+/*!*****************************************!*\
+  !*** ./src/components/scroll/scroll.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "scrollHandler": () => (/* binding */ scrollHandler)
+/* harmony export */ });
+function scrollHandler() {
+  const array = document.querySelectorAll(".reveal");
+
+  window.addEventListener("scroll", () => {
+    for (let i = 0; i < array.length; i++) {
+      let e = array[i];
+      let viewDist = e.getBoundingClientRect().top - window.innerHeight;
+
+      if (viewDist < 0) {
+        e.classList.add("active");
+      }
+    }
+  });
+}
+
+
+/***/ }),
+
 /***/ "./src/styles.js":
 /*!***********************!*\
   !*** ./src/styles.js ***!
@@ -1619,7 +1647,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_main_about_about_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/main/about/about.js */ "./src/components/main/about/about.js");
 /* harmony import */ var _components_parallax_parallax_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/parallax/parallax.js */ "./src/components/parallax/parallax.js");
 /* harmony import */ var _components_pre_loader_pre_loader_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/pre-loader/pre.loader.js */ "./src/components/pre-loader/pre.loader.js");
-/* harmony import */ var _styles_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles.js */ "./src/styles.js");
+/* harmony import */ var _components_scroll_scroll_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/scroll/scroll.js */ "./src/components/scroll/scroll.js");
+/* harmony import */ var _styles_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles.js */ "./src/styles.js");
+
 
 
 
@@ -1628,6 +1658,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /* preloader  */
 (0,_components_pre_loader_pre_loader_js__WEBPACK_IMPORTED_MODULE_3__.preloader)();
+
+/* Scroll */
+(0,_components_scroll_scroll_js__WEBPACK_IMPORTED_MODULE_4__.scrollHandler)();
 
 /* Header */
 (0,_components_header_menu_menu_js__WEBPACK_IMPORTED_MODULE_0__.menuHandler)();
