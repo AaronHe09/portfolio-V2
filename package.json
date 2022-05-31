@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -21,5 +20,14 @@
   },
   "dependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ieele/portfolio-V2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ieele/portfolio-V2/issues"
+  },
+  "homepage": "https://github.com/ieele/portfolio-V2#readme",
+  "description": ""
 }
