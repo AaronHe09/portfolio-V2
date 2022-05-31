@@ -1,0 +1,116 @@
+#languages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+/* Heading */
+
+#languages h1{
+    color: var(--light-grey);
+    font-family: var(--VT323);
+    font-size: 6rem; 
+    font-weight: 400;
+    text-shadow: var(--dark-shadow);
+    opacity: 0;
+}
+
+
+/* Card content */
+
+.languages-content{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, minmax(50px, 100px));
+    column-gap: 30px; 
+    margin-top: 20px;
+    padding: 90px 40px 40px 40px;
+    max-width: 650px;
+    width: 100%;
+
+    background-image: url(/src/assets/space.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; 
+    opacity: 0;
+}
+
+/* div */
+
+.languages-content div{
+    position: relative;
+    transition: 300ms;
+    overflow: hidden;
+}
+
+.languages-content div::before{
+    position: absolute;
+    display: block;
+    content: ''; 
+    top: 0;
+    left: 0;
+
+    /* border */
+    border-bottom: 3px solid var(--light-grey);
+
+    /* image */
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    width: 100%;
+    height: 0;
+    opacity: 1;
+    transition: 400ms;
+}
+
+/* Html */
+.languages-content div.html::before{
+    background-image: url('/src/assets/languages/html-c.png');
+}
+
+/* Css */
+.languages-content div.css::before{
+    background-image: url('/src/assets/languages/css-c.png');
+}
+
+.languages-content div.js::before{
+    background-image: url('/src/assets/languages/js-c.png');
+}
+
+.languages-content div.react::before{
+    background-image: url('/src/assets/languages/react-c.png');
+}
+
+/* Hover */
+.languages-content div:hover::before{
+    height: 100%;
+}
+
+.languages-content img{
+    width: 100%;
+}
+
+/* Scroll Animations */
+
+#languages h1.reveal.active{
+    animation: flicker 1000ms 300ms forwards; 
+}
+
+.languages-content.reveal.active{
+    animation: scale-animation 1500ms forwards;
+}
+
+/* Media */
+
+@media screen and (max-width: 500px) {
+    #languages h1{
+        font-size: 5.5rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #languages h1{
+        font-size: 4.5rem;
+    }
+}

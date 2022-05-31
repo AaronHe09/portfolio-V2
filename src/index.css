@@ -17,6 +17,7 @@
     --light-black: rgb(51, 53, 51); 
     --VT323:'VT323', monospace;
     --shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;
+    --dark-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black, 0 0 3px black;
 }
 
 html{
