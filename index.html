@@ -1,69 +1,39 @@
-<head><script defer src="bundle.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve '/home/aaron/projects/portfolio-V2/node_modules/html-webpack-  plugin/lib/loader.js' in '/home/aaron/projects/portfolio-V2'
-  ModuleNotFoundError: Module not found: Error: Can't resolve '/home/aaron/projects/portfolio-V2/node_  modules/html-webpack-plugin/lib/loader.js' in '/home/aaron/projects/portfolio-V2'
-      at /home/aaron/projects/portfolio-V2/node_modules/webpack/lib/Compilation.js:2016:28
-      at /home/aaron/projects/portfolio-V2/node_modules/webpack/lib/NormalModuleFactory.js:798:13
-      at eval (eval at create (/home/aaron/projects/portfolio-V2/node_modules/tapable/lib/HookCodeFact  ory.js:33:10), <anonymous>:10:1)
-      at /home/aaron/projects/portfolio-V2/node_modules/webpack/lib/NormalModuleFactory.js:270:22
-      at eval (eval at create (/home/aaron/projects/portfolio-V2/node_modules/tapable/lib/HookCodeFact  ory.js:33:10), <anonymous>:9:1)
-      at /home/aaron/projects/portfolio-V2/node_modules/webpack/lib/NormalModuleFactory.js:434:22
-      at /home/aaron/projects/portfolio-V2/node_modules/webpack/lib/NormalModuleFactory.js:120:11
-      at /home/aaron/projects/portfolio-V2/node_modules/webpack/lib/NormalModuleFactory.js:635:23
-      at /home/aaron/projects/portfolio-V2/node_modules/neo-async/async.js:2830:7
-      at done (/home/aaron/projects/portfolio-V2/node_modules/neo-async/async.js:2925:13)
-  
-  - Compilation.js:2016 
-    [portfolio-V2]/[webpack]/lib/Compilation.js:2016:28
-  
-  - NormalModuleFactory.js:798 
-    [portfolio-V2]/[webpack]/lib/NormalModuleFactory.js:798:13
-  
-  
-  - NormalModuleFactory.js:270 
-    [portfolio-V2]/[webpack]/lib/NormalModuleFactory.js:270:22
-  
-  
-  - NormalModuleFactory.js:434 
-    [portfolio-V2]/[webpack]/lib/NormalModuleFactory.js:434:22
-  
-  - NormalModuleFactory.js:120 
-    [portfolio-V2]/[webpack]/lib/NormalModuleFactory.js:120:11
-  
-  - NormalModuleFactory.js:635 
-    [portfolio-V2]/[webpack]/lib/NormalModuleFactory.js:635:23
-  
-  - async.js:2830 
-    [portfolio-V2]/[neo-async]/async.js:2830:7
-  
-  - async.js:2925 done
-    [portfolio-V2]/[neo-async]/async.js:2925:13
-  
-  - child-compiler.js:169 
-    [portfolio-V2]/[html-webpack-plugin]/lib/child-compiler.js:169:18
-  
-  - Compiler.js:551 finalCallback
-    [portfolio-V2]/[webpack]/lib/Compiler.js:551:5
-  
-  - Compiler.js:577 
-    [portfolio-V2]/[webpack]/lib/Compiler.js:577:11
-  
-  - Compiler.js:1196 
-    [portfolio-V2]/[webpack]/lib/Compiler.js:1196:17
-  
-  
-  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
-    [portfolio-V2]/[tapable]/lib/Hook.js:18:14
-  
-  - Compiler.js:1192 
-    [portfolio-V2]/[webpack]/lib/Compiler.js:1192:33
-  
-  - Compilation.js:2787 finalCallback
-    [portfolio-V2]/[webpack]/lib/Compilation.js:2787:11
-  
-  - Compilation.js:3092 
-    [portfolio-V2]/[webpack]/lib/Compilation.js:3092:11
-  
-  
-</pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+<script defer src="bundle.js"></script></head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav id="nav">
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-ul">
+                 <li><a href="#header" class="nav-a">Home</a></li>
+                 <li><a href="#main" class="nav-a">Projects</a></li>
+                 <li><a href="#footer" class="nav-a">Contact</a></li>
+                 <li><button type="button" class="about-me-btn nav-a">About Me</button></li>
+             </ul>
+         </nav>
+    </header>
+
+    <!-- Parallax -->
+    <section class="parallax-content">
+        <div class="parallax-text">
+            <h1>Hi, i'm Aaron</h1>
+            <span>Interactive Front-End Developer</span>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <main id="main"></main>
+</body>
+</html>
