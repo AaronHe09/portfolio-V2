@@ -1,5 +1,8 @@
 import "./index.css";
 
+/* preloader */
+import "./components/pre-loader/pre-loader.css";
+
 /* header */
 import "./components/header/header.css";
 import "./components/header/nav.css";

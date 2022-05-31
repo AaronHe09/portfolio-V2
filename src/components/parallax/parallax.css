@@ -17,6 +17,8 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding: 50px;
+    overflow: hidden;
     z-index: 1;
 }
 
@@ -32,16 +34,19 @@
 .parallax-text h1{
     font-size: 8rem;
     color: black;
+    animation: show-text 1500ms;
 }
 
 .parallax-text span{
     font-size: 2rem;
     letter-spacing: 1px;
+    opacity: 0;
+    animation: flicker 800ms 1000ms forwards;
 }
 
 /* Images */
 
-.parallax-content img{
+.stars, .cloud, .moon, .cloud4{
     position: absolute;
     top: 0;
     left: 0;
@@ -50,10 +55,66 @@
     object-fit: cover;
 }
 
+.cloud2, .cloud3{
+    position: absolute;
+    width: 350px;
+    height: auto;
+}
+
+.cloud2{
+    top: 40%;
+    right: 0;
+}
+
+.cloud3{
+    top: 20%;
+    left: 0;
+}
+
 .moon{
     filter: contrast(110%) drop-shadow(0 0 20px rgb(239, 241, 109));
 }
 
+@keyframes show-text{
+    from{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes flicker{
+    0%{
+        opacity: 0;
+    }
+    15%{
+        opacity: 20%;
+    }
+    22%{
+        opacity: 5%;
+    }
+    35%{
+        opacity: 40%;
+    }
+    40%{
+       opacity: 0; 
+    }
+    60%{
+        opacity: 80%;
+    }
+    79%{
+       opacity: 15%; 
+    }
+    100%{
+        opacity: 100%;
+    }
+    
+}
+
+/* Media */
 
 @media screen and (max-width: 660px) {
     .parallax-text{

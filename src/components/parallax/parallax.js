@@ -37,9 +37,9 @@ export function parallaxEffect() {
     document.querySelector(".parallax-text").style.top =
       20 + value * -0.2 + "%";
     document.querySelector(".stars").style.top = value * -0.1 + "%";
-    document.querySelector(".cloud").style.top = value * 0.11 + "%";
-    document.querySelector(".moon").style.top = value * 0.2 + "%";
-    document.querySelector(".cloud2").style.left = value * -0.15 + "%";
+    document.querySelector(".cloud").style.top = value * 0.2 + "%";
+    document.querySelector(".moon").style.top = value * 0.4 + "%";
+    document.querySelector(".cloud2").style.right = value * 0.15 + "%";
     document.querySelector(".cloud3").style.left = value * 0.15 + "%";
   });
 }
