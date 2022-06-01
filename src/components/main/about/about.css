@@ -20,7 +20,7 @@
 }
 
 #about-me h1.reveal.active{
-    animation: flicker 1500ms forwards 300ms;
+    animation: flicker 1500ms 300ms forwards;
 }
 
 /* About Container */

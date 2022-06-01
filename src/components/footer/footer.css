@@ -1,15 +1,70 @@
 #footer{
     position: relative;
-    height: 50vh;
-    border-top: 5px solid rgb(222 222 222);
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 10px;
+    background-color: rgb(244 240 230);
 }
 
-.footer-img img{
-    position: absolute;
-    top: 0;
-    left: 0;
+/* Header */
+
+#footer h1{
+    color: rgb(255, 203, 160);
+    font-family: var(--VT323);
+    font-size: 5rem;
+    font-weight: 400;
+    text-shadow: var(--dark-shadow);
+    margin-bottom: 50px;
+    opacity: 0;
+}
+
+#footer h1.reveal.active{
+    animation: flicker 1500ms 300ms forwards; 
+}
+
+/* Form */
+
+.form{
+    max-width: 600px;
+    opacity: 0;
+}
+
+.form input,
+.form textarea
+{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: var(--VT323);
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form button{
+    font-size: 1.5rem;
+    font-family: var(--VT323);
+    font-weight: 400;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.form input:focus,
+.form textarea:focus{
+    outline: 2px solid rgb(255, 203, 160);
+}
+
+.form button:hover{
+    transform: scale(1.1);
+}
+
+.form.reveal.active{
+    animation: scale-animation 800ms 400ms forwards;
 }

@@ -16,7 +16,7 @@
 }
 
 #projects h1.reveal.active{
-    animation: flicker 1000ms 400ms forwards; 
+    animation: flicker 1500ms 300ms forwards; 
 }
 
 .projects-content{
