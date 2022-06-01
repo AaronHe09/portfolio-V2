@@ -1,10 +1,10 @@
-import player from "/src/assets/player.gif";
+import pirate from "/src/assets/pirate.gif";
 
 export function renderCharacter() {
   const container = document.querySelector(".player-content");
 
   const newImage = new Image();
-  newImage.src = player;
+  newImage.src = pirate;
 
   container.appendChild(newImage);
 }

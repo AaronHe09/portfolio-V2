@@ -53,7 +53,7 @@
     left: 0;
 
     /* border */
-    border-bottom: 3px solid var(--gold);
+    border-bottom: 3px solid rgb(97, 255, 242);
 
     /* image */
     background-repeat: no-repeat;
