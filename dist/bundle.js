@@ -125,7 +125,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#about-me{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin: auto;\n    padding: 50px 10px;\n    background-image: linear-gradient(to bottom, rgb(8 5 19), #eaeaea);\n}\n\n/* Header */\n\n#about-me h1{\n    color: #fcfbf8;\n    font-size: 6.5rem;\n    font-family: var(--VT323);\n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    text-align: center;\n    opacity: 0;\n}\n\n#about-me h1.reveal.active{\n    animation: flicker 1500ms forwards 300ms;\n}\n\n/* About Container */\n\n.about-container{\n    display: flex;\n    align-items: center;\n    column-gap: 25px;\n    opacity: 0;\n}\n\n.about-container.reveal.active{\n    animation: scale-animation 800ms 400ms forwards;\n}\n\n/* About me */\n\n.about{\n    padding: 20px;\n    max-width: 1000px;\n    background-color: #fcfbf8;\n    border-radius: 10px;\n    border-left: 10px solid var(--gold);\n    border-right: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n}\n\n.about p,\n.about p span{\n    font-family: var(--VT323);\n    font-weight: 400;\n    font-size: 1.45rem;\n    line-height: 1.2;\n    color: black;\n}\n\n.about p :nth-child(1){\n    color: \trgb(250, 68, 84);\n}\n\n.about p :nth-child(2){\n    color: blueviolet;\n}\n\n.about p :nth-child(3){\n    color: \tpink;\n}\n\n.about p :nth-child(4){\n    color: \tlightskyblue;\n}\n\n/* Player */\n\n.player-content{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    opacity: 0\n}\n\n.player-content.reveal.active{\n    animation: scale-animation 800ms forwards 400ms;\n}\n\n.player-content img{\n   width: 300px;\n}\n\n/* Keyframe */\n\n@keyframes scale-animation{\n    from{\n        opacity: 0;\n        transform: scale(0);\n    }\n    to{\n        opacity: 1;\n        transform: scale(1);\n    }\n}\n\n/* Media */\n\n@media screen and (max-width: 830px) {\n    .about-container{\n        flex-direction: column;\n    }\n}", "",{"version":3,"sources":["webpack://./src/components/main/about/about.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,YAAY;IACZ,kBAAkB;IAClB,kEAAkE;AACtE;;AAEA,WAAW;;AAEX;IACI,cAAc;IACd,iBAAiB;IACjB,yBAAyB;IACzB,gBAAgB;IAChB,+BAA+B;IAC/B,kBAAkB;IAClB,UAAU;AACd;;AAEA;IACI,wCAAwC;AAC5C;;AAEA,oBAAoB;;AAEpB;IACI,aAAa;IACb,mBAAmB;IACnB,gBAAgB;IAChB,UAAU;AACd;;AAEA;IACI,+CAA+C;AACnD;;AAEA,aAAa;;AAEb;IACI,aAAa;IACb,iBAAiB;IACjB,yBAAyB;IACzB,mBAAmB;IACnB,mCAAmC;IACnC,oCAAoC;IACpC,iDAAiD;AACrD;;AAEA;;IAEI,yBAAyB;IACzB,gBAAgB;IAChB,kBAAkB;IAClB,gBAAgB;IAChB,YAAY;AAChB;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,oBAAoB;AACxB;;AAEA,WAAW;;AAEX;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB;AACJ;;AAEA;IACI,+CAA+C;AACnD;;AAEA;GACG,YAAY;AACf;;AAEA,aAAa;;AAEb;IACI;QACI,UAAU;QACV,mBAAmB;IACvB;IACA;QACI,UAAU;QACV,mBAAmB;IACvB;AACJ;;AAEA,UAAU;;AAEV;IACI;QACI,sBAAsB;IAC1B;AACJ","sourcesContent":["#about-me{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin: auto;\n    padding: 50px 10px;\n    background-image: linear-gradient(to bottom, rgb(8 5 19), #eaeaea);\n}\n\n/* Header */\n\n#about-me h1{\n    color: #fcfbf8;\n    font-size: 6.5rem;\n    font-family: var(--VT323);\n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    text-align: center;\n    opacity: 0;\n}\n\n#about-me h1.reveal.active{\n    animation: flicker 1500ms forwards 300ms;\n}\n\n/* About Container */\n\n.about-container{\n    display: flex;\n    align-items: center;\n    column-gap: 25px;\n    opacity: 0;\n}\n\n.about-container.reveal.active{\n    animation: scale-animation 800ms 400ms forwards;\n}\n\n/* About me */\n\n.about{\n    padding: 20px;\n    max-width: 1000px;\n    background-color: #fcfbf8;\n    border-radius: 10px;\n    border-left: 10px solid var(--gold);\n    border-right: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n}\n\n.about p,\n.about p span{\n    font-family: var(--VT323);\n    font-weight: 400;\n    font-size: 1.45rem;\n    line-height: 1.2;\n    color: black;\n}\n\n.about p :nth-child(1){\n    color: \trgb(250, 68, 84);\n}\n\n.about p :nth-child(2){\n    color: blueviolet;\n}\n\n.about p :nth-child(3){\n    color: \tpink;\n}\n\n.about p :nth-child(4){\n    color: \tlightskyblue;\n}\n\n/* Player */\n\n.player-content{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    opacity: 0\n}\n\n.player-content.reveal.active{\n    animation: scale-animation 800ms forwards 400ms;\n}\n\n.player-content img{\n   width: 300px;\n}\n\n/* Keyframe */\n\n@keyframes scale-animation{\n    from{\n        opacity: 0;\n        transform: scale(0);\n    }\n    to{\n        opacity: 1;\n        transform: scale(1);\n    }\n}\n\n/* Media */\n\n@media screen and (max-width: 830px) {\n    .about-container{\n        flex-direction: column;\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "#about-me{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin: auto;\n    padding: 50px 10px;\n    background-image: linear-gradient(to bottom, rgb(59 125 79), #eaeaea);\n}\n\n/* Header */\n\n#about-me h1{\n    color: #fcfbf8;\n    font-size: 6.5rem;\n    font-family: var(--VT323);\n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    text-align: center;\n    opacity: 0;\n}\n\n#about-me h1.reveal.active{\n    animation: flicker 1500ms forwards 300ms;\n}\n\n/* About Container */\n\n.about-container{\n    display: flex;\n    align-items: center;\n    column-gap: 25px;\n    opacity: 0;\n}\n\n.about-container.reveal.active{\n    animation: scale-animation 800ms 400ms forwards;\n}\n\n/* About me */\n\n.about{\n    padding: 20px;\n    max-width: 1000px;\n    background-color: #fcfbf8;\n    border-radius: 10px;\n    border-left: 10px solid var(--gold);\n    border-right: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n}\n\n.about p,\n.about p span{\n    font-family: var(--VT323);\n    font-weight: 400;\n    font-size: 1.45rem;\n    line-height: 1.2;\n    color: black;\n}\n\n.about p :nth-child(1){\n    color: \trgb(250, 68, 84);\n}\n\n.about p :nth-child(2){\n    color: blueviolet;\n}\n\n.about p :nth-child(3){\n    color: \tpink;\n}\n\n.about p :nth-child(4){\n    color: \tlightskyblue;\n}\n\n/* Player */\n\n.player-content{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    opacity: 0\n}\n\n.player-content.reveal.active{\n    animation: scale-animation 800ms forwards 400ms;\n}\n\n.player-content img{\n   width: 300px;\n}\n\n/* Keyframe */\n\n@keyframes scale-animation{\n    from{\n        opacity: 0;\n        transform: scale(0);\n    }\n    to{\n        opacity: 1;\n        transform: scale(1);\n    }\n}\n\n/* Media */\n\n@media screen and (max-width: 830px) {\n    .about-container{\n        flex-direction: column;\n    }\n}", "",{"version":3,"sources":["webpack://./src/components/main/about/about.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,YAAY;IACZ,kBAAkB;IAClB,qEAAqE;AACzE;;AAEA,WAAW;;AAEX;IACI,cAAc;IACd,iBAAiB;IACjB,yBAAyB;IACzB,gBAAgB;IAChB,+BAA+B;IAC/B,kBAAkB;IAClB,UAAU;AACd;;AAEA;IACI,wCAAwC;AAC5C;;AAEA,oBAAoB;;AAEpB;IACI,aAAa;IACb,mBAAmB;IACnB,gBAAgB;IAChB,UAAU;AACd;;AAEA;IACI,+CAA+C;AACnD;;AAEA,aAAa;;AAEb;IACI,aAAa;IACb,iBAAiB;IACjB,yBAAyB;IACzB,mBAAmB;IACnB,mCAAmC;IACnC,oCAAoC;IACpC,iDAAiD;AACrD;;AAEA;;IAEI,yBAAyB;IACzB,gBAAgB;IAChB,kBAAkB;IAClB,gBAAgB;IAChB,YAAY;AAChB;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,oBAAoB;AACxB;;AAEA,WAAW;;AAEX;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB;AACJ;;AAEA;IACI,+CAA+C;AACnD;;AAEA;GACG,YAAY;AACf;;AAEA,aAAa;;AAEb;IACI;QACI,UAAU;QACV,mBAAmB;IACvB;IACA;QACI,UAAU;QACV,mBAAmB;IACvB;AACJ;;AAEA,UAAU;;AAEV;IACI;QACI,sBAAsB;IAC1B;AACJ","sourcesContent":["#about-me{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin: auto;\n    padding: 50px 10px;\n    background-image: linear-gradient(to bottom, rgb(59 125 79), #eaeaea);\n}\n\n/* Header */\n\n#about-me h1{\n    color: #fcfbf8;\n    font-size: 6.5rem;\n    font-family: var(--VT323);\n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    text-align: center;\n    opacity: 0;\n}\n\n#about-me h1.reveal.active{\n    animation: flicker 1500ms forwards 300ms;\n}\n\n/* About Container */\n\n.about-container{\n    display: flex;\n    align-items: center;\n    column-gap: 25px;\n    opacity: 0;\n}\n\n.about-container.reveal.active{\n    animation: scale-animation 800ms 400ms forwards;\n}\n\n/* About me */\n\n.about{\n    padding: 20px;\n    max-width: 1000px;\n    background-color: #fcfbf8;\n    border-radius: 10px;\n    border-left: 10px solid var(--gold);\n    border-right: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n}\n\n.about p,\n.about p span{\n    font-family: var(--VT323);\n    font-weight: 400;\n    font-size: 1.45rem;\n    line-height: 1.2;\n    color: black;\n}\n\n.about p :nth-child(1){\n    color: \trgb(250, 68, 84);\n}\n\n.about p :nth-child(2){\n    color: blueviolet;\n}\n\n.about p :nth-child(3){\n    color: \tpink;\n}\n\n.about p :nth-child(4){\n    color: \tlightskyblue;\n}\n\n/* Player */\n\n.player-content{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    opacity: 0\n}\n\n.player-content.reveal.active{\n    animation: scale-animation 800ms forwards 400ms;\n}\n\n.player-content img{\n   width: 300px;\n}\n\n/* Keyframe */\n\n@keyframes scale-animation{\n    from{\n        opacity: 0;\n        transform: scale(0);\n    }\n    to{\n        opacity: 1;\n        transform: scale(1);\n    }\n}\n\n/* Media */\n\n@media screen and (max-width: 830px) {\n    .about-container{\n        flex-direction: column;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -162,7 +162,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#languages{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 50px 10px; \n    background-image: linear-gradient(to bottom, rgb(255, 104, 131), #eaeaea);\n}\n/* Heading */\n\n#languages h1{\n    color: #fcfbf8;\n    font-family: var(--VT323);\n    font-size: 6rem; \n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    opacity: 0;\n}\n\n\n/* Card content */\n\n.languages-content{\n    display: grid;\n    justify-content: center;\n    grid-template-columns: repeat(4, minmax(60px, 80px));\n    column-gap: 10%; \n\n    padding: 20px;\n    max-width: 1000px;\n    width: 100%;\n\n    background-color: #fcfbf8; \n    border-radius: 10px;\n    border-right: 10px solid var(--gold);\n    border-left: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n    opacity: 0;\n}\n\n/* div */\n\n.languages-content div{\n    position: relative;\n    transition: 300ms;\n    overflow: hidden;\n}\n\n.languages-content div::before{\n    position: absolute;\n    display: block;\n    content: ''; \n    top: 0;\n    left: 0;\n\n    /* border */\n    border-bottom: 3px solid var(--gold);\n\n    /* image */\n    background-repeat: no-repeat;\n    background-size: 100%; \n    width: 100%;\n    height: 0;\n    opacity: 1;\n    transition: 400ms;\n}\n\n/* Image */\n\n.book{\n    opacity: 0;\n}\n\n.book img{\n    width: 250px;\n}\n\n/* Html */\n.languages-content div.html::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n/* Css */\n.languages-content div.css::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n.languages-content div.js::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n\n.languages-content div.react::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n}\n\n/* Hover */\n.languages-content div:hover::before{\n    height: 100%;\n}\n\n.languages-content img{\n    width: 100%;\n}\n\n/* Scroll Animations */\n\n#languages h1.reveal.active{\n    animation: flicker 1000ms 300ms forwards; \n}\n\n.languages-content.reveal.active{\n    animation: scale-animation 800ms  400ms forwards;\n}\n\n.book.reveal.active{\n    animation: scale-animation 800ms 400ms forwards; \n}\n\n/* Media */\n\n@media screen and (max-width: 500px) {\n    #languages h1{\n        font-size: 5.5rem;\n    }\n}\n\n@media screen and (max-width: 430px) {\n    #languages h1{\n        font-size: 4.5rem;\n    }\n}", "",{"version":3,"sources":["webpack://./src/components/main/languages/languages.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,kBAAkB;IAClB,yEAAyE;AAC7E;AACA,YAAY;;AAEZ;IACI,cAAc;IACd,yBAAyB;IACzB,eAAe;IACf,gBAAgB;IAChB,+BAA+B;IAC/B,UAAU;AACd;;;AAGA,iBAAiB;;AAEjB;IACI,aAAa;IACb,uBAAuB;IACvB,oDAAoD;IACpD,eAAe;;IAEf,aAAa;IACb,iBAAiB;IACjB,WAAW;;IAEX,yBAAyB;IACzB,mBAAmB;IACnB,oCAAoC;IACpC,mCAAmC;IACnC,iDAAiD;IACjD,UAAU;AACd;;AAEA,QAAQ;;AAER;IACI,kBAAkB;IAClB,iBAAiB;IACjB,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;IAClB,cAAc;IACd,WAAW;IACX,MAAM;IACN,OAAO;;IAEP,WAAW;IACX,oCAAoC;;IAEpC,UAAU;IACV,4BAA4B;IAC5B,qBAAqB;IACrB,WAAW;IACX,SAAS;IACT,UAAU;IACV,iBAAiB;AACrB;;AAEA,UAAU;;AAEV;IACI,UAAU;AACd;;AAEA;IACI,YAAY;AAChB;;AAEA,SAAS;AACT;IACI,yDAAyD;AAC7D;;AAEA,QAAQ;AACR;IACI,yDAAwD;AAC5D;;AAEA;IACI,yDAAuD;AAC3D;;AAEA;IACI,yDAA0D;AAC9D;;AAEA,UAAU;AACV;IACI,YAAY;AAChB;;AAEA;IACI,WAAW;AACf;;AAEA,sBAAsB;;AAEtB;IACI,wCAAwC;AAC5C;;AAEA;IACI,gDAAgD;AACpD;;AAEA;IACI,+CAA+C;AACnD;;AAEA,UAAU;;AAEV;IACI;QACI,iBAAiB;IACrB;AACJ;;AAEA;IACI;QACI,iBAAiB;IACrB;AACJ","sourcesContent":["#languages{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 50px 10px; \n    background-image: linear-gradient(to bottom, rgb(255, 104, 131), #eaeaea);\n}\n/* Heading */\n\n#languages h1{\n    color: #fcfbf8;\n    font-family: var(--VT323);\n    font-size: 6rem; \n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    opacity: 0;\n}\n\n\n/* Card content */\n\n.languages-content{\n    display: grid;\n    justify-content: center;\n    grid-template-columns: repeat(4, minmax(60px, 80px));\n    column-gap: 10%; \n\n    padding: 20px;\n    max-width: 1000px;\n    width: 100%;\n\n    background-color: #fcfbf8; \n    border-radius: 10px;\n    border-right: 10px solid var(--gold);\n    border-left: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n    opacity: 0;\n}\n\n/* div */\n\n.languages-content div{\n    position: relative;\n    transition: 300ms;\n    overflow: hidden;\n}\n\n.languages-content div::before{\n    position: absolute;\n    display: block;\n    content: ''; \n    top: 0;\n    left: 0;\n\n    /* border */\n    border-bottom: 3px solid var(--gold);\n\n    /* image */\n    background-repeat: no-repeat;\n    background-size: 100%; \n    width: 100%;\n    height: 0;\n    opacity: 1;\n    transition: 400ms;\n}\n\n/* Image */\n\n.book{\n    opacity: 0;\n}\n\n.book img{\n    width: 250px;\n}\n\n/* Html */\n.languages-content div.html::before{\n    background-image: url('/src/assets/languages/html-c.png');\n}\n\n/* Css */\n.languages-content div.css::before{\n    background-image: url('/src/assets/languages/css-c.png');\n}\n\n.languages-content div.js::before{\n    background-image: url('/src/assets/languages/js-c.png');\n}\n\n.languages-content div.react::before{\n    background-image: url('/src/assets/languages/react-c.png');\n}\n\n/* Hover */\n.languages-content div:hover::before{\n    height: 100%;\n}\n\n.languages-content img{\n    width: 100%;\n}\n\n/* Scroll Animations */\n\n#languages h1.reveal.active{\n    animation: flicker 1000ms 300ms forwards; \n}\n\n.languages-content.reveal.active{\n    animation: scale-animation 800ms  400ms forwards;\n}\n\n.book.reveal.active{\n    animation: scale-animation 800ms 400ms forwards; \n}\n\n/* Media */\n\n@media screen and (max-width: 500px) {\n    #languages h1{\n        font-size: 5.5rem;\n    }\n}\n\n@media screen and (max-width: 430px) {\n    #languages h1{\n        font-size: 4.5rem;\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "#languages{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 50px 10px; \n    background-image: linear-gradient(to bottom, rgb(0 131 214), #eaeaea);\n}\n/* Heading */\n\n#languages h1{\n    color: #fcfbf8;\n    font-family: var(--VT323);\n    font-size: 6rem; \n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    opacity: 0;\n}\n\n\n/* Card content */\n\n.languages-content{\n    display: grid;\n    justify-content: center;\n    grid-template-columns: repeat(4, minmax(60px, 80px));\n    column-gap: 10%; \n\n    padding: 20px;\n    max-width: 1000px;\n    width: 100%;\n\n    background-color: #fcfbf8; \n    border-radius: 10px;\n    border-right: 10px solid var(--gold);\n    border-left: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n    opacity: 0;\n}\n\n/* div */\n\n.languages-content div{\n    position: relative;\n    transition: 300ms;\n    overflow: hidden;\n}\n\n.languages-content div::before{\n    position: absolute;\n    display: block;\n    content: ''; \n    top: 0;\n    left: 0;\n\n    /* border */\n    border-bottom: 3px solid var(--gold);\n\n    /* image */\n    background-repeat: no-repeat;\n    background-size: 100%; \n    width: 100%;\n    height: 0;\n    opacity: 1;\n    transition: 400ms;\n}\n\n/* Image */\n\n.book{\n    opacity: 0;\n}\n\n.book img{\n    width: 250px;\n}\n\n/* Html */\n.languages-content div.html::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n/* Css */\n.languages-content div.css::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n.languages-content div.js::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n\n.languages-content div.react::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n}\n\n/* Hover */\n.languages-content div:hover::before{\n    height: 100%;\n}\n\n.languages-content img{\n    width: 100%;\n}\n\n/* Scroll Animations */\n\n#languages h1.reveal.active{\n    animation: flicker 1000ms 300ms forwards; \n}\n\n.languages-content.reveal.active{\n    animation: scale-animation 800ms  400ms forwards;\n}\n\n.book.reveal.active{\n    animation: scale-animation 800ms 400ms forwards; \n}\n\n/* Media */\n\n@media screen and (max-width: 500px) {\n    #languages h1{\n        font-size: 5.5rem;\n    }\n}\n\n@media screen and (max-width: 430px) {\n    #languages h1{\n        font-size: 4.5rem;\n    }\n}", "",{"version":3,"sources":["webpack://./src/components/main/languages/languages.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,kBAAkB;IAClB,qEAAqE;AACzE;AACA,YAAY;;AAEZ;IACI,cAAc;IACd,yBAAyB;IACzB,eAAe;IACf,gBAAgB;IAChB,+BAA+B;IAC/B,UAAU;AACd;;;AAGA,iBAAiB;;AAEjB;IACI,aAAa;IACb,uBAAuB;IACvB,oDAAoD;IACpD,eAAe;;IAEf,aAAa;IACb,iBAAiB;IACjB,WAAW;;IAEX,yBAAyB;IACzB,mBAAmB;IACnB,oCAAoC;IACpC,mCAAmC;IACnC,iDAAiD;IACjD,UAAU;AACd;;AAEA,QAAQ;;AAER;IACI,kBAAkB;IAClB,iBAAiB;IACjB,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;IAClB,cAAc;IACd,WAAW;IACX,MAAM;IACN,OAAO;;IAEP,WAAW;IACX,oCAAoC;;IAEpC,UAAU;IACV,4BAA4B;IAC5B,qBAAqB;IACrB,WAAW;IACX,SAAS;IACT,UAAU;IACV,iBAAiB;AACrB;;AAEA,UAAU;;AAEV;IACI,UAAU;AACd;;AAEA;IACI,YAAY;AAChB;;AAEA,SAAS;AACT;IACI,yDAAyD;AAC7D;;AAEA,QAAQ;AACR;IACI,yDAAwD;AAC5D;;AAEA;IACI,yDAAuD;AAC3D;;AAEA;IACI,yDAA0D;AAC9D;;AAEA,UAAU;AACV;IACI,YAAY;AAChB;;AAEA;IACI,WAAW;AACf;;AAEA,sBAAsB;;AAEtB;IACI,wCAAwC;AAC5C;;AAEA;IACI,gDAAgD;AACpD;;AAEA;IACI,+CAA+C;AACnD;;AAEA,UAAU;;AAEV;IACI;QACI,iBAAiB;IACrB;AACJ;;AAEA;IACI;QACI,iBAAiB;IACrB;AACJ","sourcesContent":["#languages{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 50px 10px; \n    background-image: linear-gradient(to bottom, rgb(0 131 214), #eaeaea);\n}\n/* Heading */\n\n#languages h1{\n    color: #fcfbf8;\n    font-family: var(--VT323);\n    font-size: 6rem; \n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    opacity: 0;\n}\n\n\n/* Card content */\n\n.languages-content{\n    display: grid;\n    justify-content: center;\n    grid-template-columns: repeat(4, minmax(60px, 80px));\n    column-gap: 10%; \n\n    padding: 20px;\n    max-width: 1000px;\n    width: 100%;\n\n    background-color: #fcfbf8; \n    border-radius: 10px;\n    border-right: 10px solid var(--gold);\n    border-left: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n    opacity: 0;\n}\n\n/* div */\n\n.languages-content div{\n    position: relative;\n    transition: 300ms;\n    overflow: hidden;\n}\n\n.languages-content div::before{\n    position: absolute;\n    display: block;\n    content: ''; \n    top: 0;\n    left: 0;\n\n    /* border */\n    border-bottom: 3px solid var(--gold);\n\n    /* image */\n    background-repeat: no-repeat;\n    background-size: 100%; \n    width: 100%;\n    height: 0;\n    opacity: 1;\n    transition: 400ms;\n}\n\n/* Image */\n\n.book{\n    opacity: 0;\n}\n\n.book img{\n    width: 250px;\n}\n\n/* Html */\n.languages-content div.html::before{\n    background-image: url('/src/assets/languages/html-c.png');\n}\n\n/* Css */\n.languages-content div.css::before{\n    background-image: url('/src/assets/languages/css-c.png');\n}\n\n.languages-content div.js::before{\n    background-image: url('/src/assets/languages/js-c.png');\n}\n\n.languages-content div.react::before{\n    background-image: url('/src/assets/languages/react-c.png');\n}\n\n/* Hover */\n.languages-content div:hover::before{\n    height: 100%;\n}\n\n.languages-content img{\n    width: 100%;\n}\n\n/* Scroll Animations */\n\n#languages h1.reveal.active{\n    animation: flicker 1000ms 300ms forwards; \n}\n\n.languages-content.reveal.active{\n    animation: scale-animation 800ms  400ms forwards;\n}\n\n.book.reveal.active{\n    animation: scale-animation 800ms 400ms forwards; \n}\n\n/* Media */\n\n@media screen and (max-width: 500px) {\n    #languages h1{\n        font-size: 5.5rem;\n    }\n}\n\n@media screen and (max-width: 430px) {\n    #languages h1{\n        font-size: 4.5rem;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -240,7 +240,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".parallax-content{\n    position: relative;\n    top: 0;\n    left: 0;\n    overflow: hidden;\n    width: 100%;\n    height: 100vh;\n}\n\n/* Text */\n\n.parallax-text{\n    position: absolute;\n    top: 35%;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    width: 100%;\n    padding: 50px;\n    overflow: hidden;\n    z-index: 1;\n}\n\n.parallax-text h1,\n.parallax-text span\n{\n    text-align: center;\n    font-weight: 400;\n    font-family: var(--VT323);\n    text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;\n}\n\n.parallax-text h1{\n    font-size: 8rem;\n    color: black;\n    animation: show-text 1500ms;\n    margin-bottom: 20px;\n}\n\n.parallax-text span{\n    font-size: 2rem;\n    letter-spacing: 1px;\n    opacity: 0;\n    animation: flicker 800ms 1000ms forwards;\n}\n\n/* Images */\n\n.stars, .cloud, .moon, .cloud4{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n\n.cloud2, .cloud3{\n    position: absolute;\n    width: 350px;\n    height: auto;\n}\n\n.cloud2{\n    top: 40%;\n    right: 0;\n}\n\n.cloud3{\n    top: 20%;\n    left: 0;\n}\n\n.moon{\n    filter: contrast(110%) drop-shadow(0 0 20px rgb(239, 241, 109));\n}\n\n@keyframes show-text{\n    from{\n        opacity: 0;\n        transform: translateY(100%);\n    }\n    to{\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes flicker{\n    0%{\n        opacity: 0;\n    }\n    15%{\n        opacity: 20%;\n    }\n    22%{\n        opacity: 5%;\n    }\n    35%{\n        opacity: 40%;\n    }\n    40%{\n       opacity: 0; \n    }\n    60%{\n        opacity: 80%;\n    }\n    79%{\n       opacity: 15%; \n    }\n    100%{\n        opacity: 100%;\n    }\n    \n}\n\n/* Media */\n\n", "",{"version":3,"sources":["webpack://./src/components/parallax/parallax.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,MAAM;IACN,OAAO;IACP,gBAAgB;IAChB,WAAW;IACX,aAAa;AACjB;;AAEA,SAAS;;AAET;IACI,kBAAkB;IAClB,QAAQ;IACR,OAAO;IACP,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,WAAW;IACX,aAAa;IACb,gBAAgB;IAChB,UAAU;AACd;;AAEA;;;IAGI,kBAAkB;IAClB,gBAAgB;IAChB,yBAAyB;IACzB,uEAAuE;AAC3E;;AAEA;IACI,eAAe;IACf,YAAY;IACZ,2BAA2B;IAC3B,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,mBAAmB;IACnB,UAAU;IACV,wCAAwC;AAC5C;;AAEA,WAAW;;AAEX;IACI,kBAAkB;IAClB,MAAM;IACN,OAAO;IACP,WAAW;IACX,YAAY;IACZ,iBAAiB;AACrB;;AAEA;IACI,kBAAkB;IAClB,YAAY;IACZ,YAAY;AAChB;;AAEA;IACI,QAAQ;IACR,QAAQ;AACZ;;AAEA;IACI,QAAQ;IACR,OAAO;AACX;;AAEA;IACI,+DAA+D;AACnE;;AAEA;IACI;QACI,UAAU;QACV,2BAA2B;IAC/B;IACA;QACI,UAAU;QACV,wBAAwB;IAC5B;AACJ;;AAEA;IACI;QACI,UAAU;IACd;IACA;QACI,YAAY;IAChB;IACA;QACI,WAAW;IACf;IACA;QACI,YAAY;IAChB;IACA;OACG,UAAU;IACb;IACA;QACI,YAAY;IAChB;IACA;OACG,YAAY;IACf;IACA;QACI,aAAa;IACjB;;AAEJ;;AAEA,UAAU","sourcesContent":[".parallax-content{\n    position: relative;\n    top: 0;\n    left: 0;\n    overflow: hidden;\n    width: 100%;\n    height: 100vh;\n}\n\n/* Text */\n\n.parallax-text{\n    position: absolute;\n    top: 35%;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    width: 100%;\n    padding: 50px;\n    overflow: hidden;\n    z-index: 1;\n}\n\n.parallax-text h1,\n.parallax-text span\n{\n    text-align: center;\n    font-weight: 400;\n    font-family: var(--VT323);\n    text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;\n}\n\n.parallax-text h1{\n    font-size: 8rem;\n    color: black;\n    animation: show-text 1500ms;\n    margin-bottom: 20px;\n}\n\n.parallax-text span{\n    font-size: 2rem;\n    letter-spacing: 1px;\n    opacity: 0;\n    animation: flicker 800ms 1000ms forwards;\n}\n\n/* Images */\n\n.stars, .cloud, .moon, .cloud4{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n\n.cloud2, .cloud3{\n    position: absolute;\n    width: 350px;\n    height: auto;\n}\n\n.cloud2{\n    top: 40%;\n    right: 0;\n}\n\n.cloud3{\n    top: 20%;\n    left: 0;\n}\n\n.moon{\n    filter: contrast(110%) drop-shadow(0 0 20px rgb(239, 241, 109));\n}\n\n@keyframes show-text{\n    from{\n        opacity: 0;\n        transform: translateY(100%);\n    }\n    to{\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes flicker{\n    0%{\n        opacity: 0;\n    }\n    15%{\n        opacity: 20%;\n    }\n    22%{\n        opacity: 5%;\n    }\n    35%{\n        opacity: 40%;\n    }\n    40%{\n       opacity: 0; \n    }\n    60%{\n        opacity: 80%;\n    }\n    79%{\n       opacity: 15%; \n    }\n    100%{\n        opacity: 100%;\n    }\n    \n}\n\n/* Media */\n\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".parallax-content{\n    position: relative;\n    top: 0;\n    left: 0;\n    overflow: hidden;\n    width: 100%;\n    height: 100vh;\n    background-color: lightblue;\n}\n\n/* Text */\n\n.parallax-text{\n    position: absolute;\n    top: 35%;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    width: 100%;\n    padding: 50px;\n    overflow: hidden;\n    z-index: 1;\n}\n\n.parallax-text h1,\n.parallax-text span\n{\n    text-align: center;\n    font-weight: 400;\n    font-family: var(--VT323);\n    text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;\n}\n\n.parallax-text h1{\n    font-size: 8rem;\n    color: black;\n    animation: show-text 1500ms;\n    margin-bottom: 20px;\n}\n\n.parallax-text span{\n    font-size: 2rem;\n    letter-spacing: 1px;\n    opacity: 0;\n    animation: flicker 800ms 1000ms forwards;\n}\n\n/* Images */\n\n.parallax-content img{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n\n\n@keyframes show-text{\n    from{\n        opacity: 0;\n        transform: translateY(100%);\n    }\n    to{\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes flicker{\n    0%{\n        opacity: 0;\n    }\n    15%{\n        opacity: 20%;\n    }\n    22%{\n        opacity: 5%;\n    }\n    35%{\n        opacity: 40%;\n    }\n    40%{\n       opacity: 0; \n    }\n    60%{\n        opacity: 80%;\n    }\n    79%{\n       opacity: 15%; \n    }\n    100%{\n        opacity: 100%;\n    }\n    \n}\n\n/* Media */\n\n", "",{"version":3,"sources":["webpack://./src/components/parallax/parallax.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,MAAM;IACN,OAAO;IACP,gBAAgB;IAChB,WAAW;IACX,aAAa;IACb,2BAA2B;AAC/B;;AAEA,SAAS;;AAET;IACI,kBAAkB;IAClB,QAAQ;IACR,OAAO;IACP,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,WAAW;IACX,aAAa;IACb,gBAAgB;IAChB,UAAU;AACd;;AAEA;;;IAGI,kBAAkB;IAClB,gBAAgB;IAChB,yBAAyB;IACzB,uEAAuE;AAC3E;;AAEA;IACI,eAAe;IACf,YAAY;IACZ,2BAA2B;IAC3B,mBAAmB;AACvB;;AAEA;IACI,eAAe;IACf,mBAAmB;IACnB,UAAU;IACV,wCAAwC;AAC5C;;AAEA,WAAW;;AAEX;IACI,kBAAkB;IAClB,MAAM;IACN,OAAO;IACP,WAAW;IACX,YAAY;IACZ,iBAAiB;AACrB;;;AAGA;IACI;QACI,UAAU;QACV,2BAA2B;IAC/B;IACA;QACI,UAAU;QACV,wBAAwB;IAC5B;AACJ;;AAEA;IACI;QACI,UAAU;IACd;IACA;QACI,YAAY;IAChB;IACA;QACI,WAAW;IACf;IACA;QACI,YAAY;IAChB;IACA;OACG,UAAU;IACb;IACA;QACI,YAAY;IAChB;IACA;OACG,YAAY;IACf;IACA;QACI,aAAa;IACjB;;AAEJ;;AAEA,UAAU","sourcesContent":[".parallax-content{\n    position: relative;\n    top: 0;\n    left: 0;\n    overflow: hidden;\n    width: 100%;\n    height: 100vh;\n    background-color: lightblue;\n}\n\n/* Text */\n\n.parallax-text{\n    position: absolute;\n    top: 35%;\n    left: 0;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    width: 100%;\n    padding: 50px;\n    overflow: hidden;\n    z-index: 1;\n}\n\n.parallax-text h1,\n.parallax-text span\n{\n    text-align: center;\n    font-weight: 400;\n    font-family: var(--VT323);\n    text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;\n}\n\n.parallax-text h1{\n    font-size: 8rem;\n    color: black;\n    animation: show-text 1500ms;\n    margin-bottom: 20px;\n}\n\n.parallax-text span{\n    font-size: 2rem;\n    letter-spacing: 1px;\n    opacity: 0;\n    animation: flicker 800ms 1000ms forwards;\n}\n\n/* Images */\n\n.parallax-content img{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n}\n\n\n@keyframes show-text{\n    from{\n        opacity: 0;\n        transform: translateY(100%);\n    }\n    to{\n        opacity: 1;\n        transform: translateY(0);\n    }\n}\n\n@keyframes flicker{\n    0%{\n        opacity: 0;\n    }\n    15%{\n        opacity: 20%;\n    }\n    22%{\n        opacity: 5%;\n    }\n    35%{\n        opacity: 40%;\n    }\n    40%{\n       opacity: 0; \n    }\n    60%{\n        opacity: 80%;\n    }\n    79%{\n       opacity: 15%; \n    }\n    100%{\n        opacity: 100%;\n    }\n    \n}\n\n/* Media */\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1556,12 +1556,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "parallaxEffect": () => (/* binding */ parallaxEffect),
 /* harmony export */   "renderPics": () => (/* binding */ renderPics)
 /* harmony export */ });
-/* harmony import */ var _src_assets_1_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../src/assets/1.png */ "./src/assets/1.png");
-/* harmony import */ var _src_assets_2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../src/assets/2.png */ "./src/assets/2.png");
-/* harmony import */ var _src_assets_3_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../src/assets/3.png */ "./src/assets/3.png");
-/* harmony import */ var _src_assets_4_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../src/assets/4.png */ "./src/assets/4.png");
-/* harmony import */ var _src_assets_5_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../src/assets/5.png */ "./src/assets/5.png");
-/* harmony import */ var _src_assets_6_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../src/assets/6.png */ "./src/assets/6.png");
+/* harmony import */ var _src_assets_sun_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../src/assets/sun.png */ "./src/assets/sun.png");
+/* harmony import */ var _src_assets_cloud_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../src/assets/cloud.png */ "./src/assets/cloud.png");
+/* harmony import */ var _src_assets_cloud_2_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../src/assets/cloud 2.png */ "./src/assets/cloud 2.png");
+/* harmony import */ var _src_assets_cloud_3_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../src/assets/cloud 3.png */ "./src/assets/cloud 3.png");
+/* harmony import */ var _src_assets_cloud_4_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../src/assets/cloud 4.png */ "./src/assets/cloud 4.png");
+/* harmony import */ var _src_assets_cloud_5_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../src/assets/cloud 5.png */ "./src/assets/cloud 5.png");
+/* harmony import */ var _src_assets_island_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../src/assets/island.png */ "./src/assets/island.png");
+/* harmony import */ var _src_assets_boat_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../src/assets/boat.png */ "./src/assets/boat.png");
+/* harmony import */ var _src_assets_Background_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../src/assets/Background.png */ "./src/assets/Background.png");
+/* harmony import */ var _src_assets_deer_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../../src/assets/deer.png */ "./src/assets/deer.png");
+
+
+
+
 
 
 
@@ -1570,12 +1578,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const picArray = [
-  { url: _src_assets_1_png__WEBPACK_IMPORTED_MODULE_0__, class: "stars" },
-  { url: _src_assets_2_png__WEBPACK_IMPORTED_MODULE_1__, class: "cloud" },
-  { url: _src_assets_3_png__WEBPACK_IMPORTED_MODULE_2__, class: "moon" },
-  { url: _src_assets_4_png__WEBPACK_IMPORTED_MODULE_3__, class: "cloud2" },
-  { url: _src_assets_5_png__WEBPACK_IMPORTED_MODULE_4__, class: "cloud3" },
-  { url: _src_assets_6_png__WEBPACK_IMPORTED_MODULE_5__, class: "cloud4" },
+  { url: _src_assets_sun_png__WEBPACK_IMPORTED_MODULE_0__, class: "sun" },
+  { url: _src_assets_cloud_png__WEBPACK_IMPORTED_MODULE_1__, class: "cloud1" },
+  { url: _src_assets_cloud_2_png__WEBPACK_IMPORTED_MODULE_2__, class: "cloud2" },
+  { url: _src_assets_cloud_3_png__WEBPACK_IMPORTED_MODULE_3__, class: "cloud3" },
+  { url: _src_assets_cloud_4_png__WEBPACK_IMPORTED_MODULE_4__, class: "cloud4" },
+  { url: _src_assets_cloud_5_png__WEBPACK_IMPORTED_MODULE_5__, class: "cloud5" },
+  { url: _src_assets_island_png__WEBPACK_IMPORTED_MODULE_6__, class: "island" },
+  { url: _src_assets_boat_png__WEBPACK_IMPORTED_MODULE_7__, class: "boat" },
+  { url: _src_assets_Background_png__WEBPACK_IMPORTED_MODULE_8__, class: "background" },
+  { url: _src_assets_deer_png__WEBPACK_IMPORTED_MODULE_9__, class: "deer" },
 ];
 
 /* Render */
@@ -1598,13 +1610,17 @@ function parallaxEffect() {
   window.addEventListener("scroll", () => {
     let value = window.scrollY;
 
+    document.querySelector(".boat").style.left = value * -0.05 + "%";
+    document.querySelector(".boat").style.top = value * 0.05 + "%";
+    document.querySelector(".island").style.top = value * 0.05 + "%";
+    document.querySelector(".sun").style.top = value * -0.01 + "%";
+    document.querySelector(".cloud5").style.top = value * -0.03 + "%";
+    document.querySelector(".cloud4").style.top = value * -0.04 + "%";
+    document.querySelector(".cloud3").style.top = value * -0.02 + "%";
+    document.querySelector(".cloud2").style.top = value * -0.01 + "%";
+    document.querySelector(".cloud1").style.top = value * -0.05 + "%";
     document.querySelector(".parallax-text").style.top =
-      35 + value * -0.2 + "%";
-    document.querySelector(".stars").style.top = value * -0.1 + "%";
-    document.querySelector(".cloud").style.top = value * 0.2 + "%";
-    document.querySelector(".moon").style.top = value * 0.4 + "%";
-    document.querySelector(".cloud2").style.right = value * 0.15 + "%";
-    document.querySelector(".cloud3").style.left = value * 0.15 + "%";
+      35 + value * -0.04 + "%";
   });
 }
 
@@ -1701,63 +1717,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/assets/1.png":
-/*!**************************!*\
-  !*** ./src/assets/1.png ***!
-  \**************************/
+/***/ "./src/assets/Background.png":
+/*!***********************************!*\
+  !*** ./src/assets/Background.png ***!
+  \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "f11b0d6fd96971c517db.png";
+module.exports = __webpack_require__.p + "4d9022e32be100f877fb.png";
 
 /***/ }),
 
-/***/ "./src/assets/2.png":
-/*!**************************!*\
-  !*** ./src/assets/2.png ***!
-  \**************************/
+/***/ "./src/assets/boat.png":
+/*!*****************************!*\
+  !*** ./src/assets/boat.png ***!
+  \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "34a75c764ea15f12d988.png";
-
-/***/ }),
-
-/***/ "./src/assets/3.png":
-/*!**************************!*\
-  !*** ./src/assets/3.png ***!
-  \**************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "28135b52f9c3c2fd64ef.png";
-
-/***/ }),
-
-/***/ "./src/assets/4.png":
-/*!**************************!*\
-  !*** ./src/assets/4.png ***!
-  \**************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "3f44936d072c136ea5b5.png";
-
-/***/ }),
-
-/***/ "./src/assets/5.png":
-/*!**************************!*\
-  !*** ./src/assets/5.png ***!
-  \**************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "cc5e5b38959675e2f006.png";
-
-/***/ }),
-
-/***/ "./src/assets/6.png":
-/*!**************************!*\
-  !*** ./src/assets/6.png ***!
-  \**************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "0f4aceefc40adcc64538.png";
+module.exports = __webpack_require__.p + "ac8a0da1a96017a694d4.png";
 
 /***/ }),
 
@@ -1788,6 +1764,76 @@ module.exports = __webpack_require__.p + "7eae8cbb42d0e60e352e.gif";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "98b313e238d0c84b0b96.gif";
+
+/***/ }),
+
+/***/ "./src/assets/cloud 2.png":
+/*!********************************!*\
+  !*** ./src/assets/cloud 2.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "4bc7495bf1f3bd056a64.png";
+
+/***/ }),
+
+/***/ "./src/assets/cloud 3.png":
+/*!********************************!*\
+  !*** ./src/assets/cloud 3.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "8dee5e0bf0406a301070.png";
+
+/***/ }),
+
+/***/ "./src/assets/cloud 4.png":
+/*!********************************!*\
+  !*** ./src/assets/cloud 4.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "ea64e3ef4dcc6c31d000.png";
+
+/***/ }),
+
+/***/ "./src/assets/cloud 5.png":
+/*!********************************!*\
+  !*** ./src/assets/cloud 5.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "6d5a8c4437aa87735545.png";
+
+/***/ }),
+
+/***/ "./src/assets/cloud.png":
+/*!******************************!*\
+  !*** ./src/assets/cloud.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "bddf580aecb109d54cda.png";
+
+/***/ }),
+
+/***/ "./src/assets/deer.png":
+/*!*****************************!*\
+  !*** ./src/assets/deer.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "26f476dd659f05c5d979.png";
+
+/***/ }),
+
+/***/ "./src/assets/island.png":
+/*!*******************************!*\
+  !*** ./src/assets/island.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "a29479637f16631416b1.png";
 
 /***/ }),
 
@@ -1888,6 +1934,16 @@ module.exports = __webpack_require__.p + "5ccb3ec26b0623e1ae5a.gif";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "036a45930159dde8d3f7.gif";
+
+/***/ }),
+
+/***/ "./src/assets/sun.png":
+/*!****************************!*\
+  !*** ./src/assets/sun.png ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "5d0f6010e0ae20f6fa9e.png";
 
 /***/ })
 
