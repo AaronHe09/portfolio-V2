@@ -35,7 +35,7 @@ export function parallaxEffect() {
     let value = window.scrollY;
 
     document.querySelector(".parallax-text").style.top =
-      20 + value * -0.2 + "%";
+      35 + value * -0.2 + "%";
     document.querySelector(".stars").style.top = value * -0.1 + "%";
     document.querySelector(".cloud").style.top = value * 0.2 + "%";
     document.querySelector(".moon").style.top = value * 0.4 + "%";

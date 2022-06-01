@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 50px 10px;
-    background-color: #eaeaea;
+    background-image: linear-gradient(to bottom, rgb(0, 167, 153), #eaeaea);
 }
 
 #projects h1{
@@ -12,7 +12,6 @@
     font-weight: 400;
     text-shadow: var(--dark-shadow);
     color: #fcfbf8;
-    margin-bottom: 50px;
     opacity: 0;
 }
 
@@ -28,6 +27,8 @@
     width: 100%;
 }
 
+/* Project cards */
+
 .project{
     font-size: 3rem;
     font-family: var(--VT323);
@@ -39,6 +40,8 @@
     margin-bottom: 60px;
     background-color: #fcfbf8;
     border-radius: 10px;
+    border-right: 10px solid var(--gold);
+    border-left: 10px solid var(--gold);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     opacity: 0;
     transition: 400ms;
@@ -51,6 +54,12 @@
 .project:hover{
     transform: scale(1.05);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Image */
+
+.chest img{
+    width: 250px;
 }
 
 

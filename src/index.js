@@ -8,6 +8,8 @@ import {
   renderPc,
 } from "./components/main/languages/languages.js";
 import "./styles.js";
+import { renderChest } from "./components/main/projects/projects.js";
+import { renderFooterImg } from "./components/footer/footer.js";
 
 /* preloader  */
 preloader();
@@ -26,3 +28,7 @@ parallaxEffect();
 renderCharacter();
 renderLanguages();
 renderPc();
+renderChest();
+
+/* Footer */
+renderFooterImg();
