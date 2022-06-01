@@ -42,8 +42,8 @@ export function parallaxEffect() {
   window.addEventListener("scroll", () => {
     let value = window.scrollY;
 
-    document.querySelector(".boat").style.left = value * -0.05 + "%";
-    document.querySelector(".boat").style.top = value * 0.05 + "%";
+    document.querySelector(".boat").style.left = 90 + value * -0.05 + "%";
+    document.querySelector(".boat").style.top = 55 + value * 0.05 + "%";
     document.querySelector(".island").style.top = value * 0.05 + "%";
     document.querySelector(".sun").style.top = value * -0.01 + "%";
     document.querySelector(".cloud5").style.top = value * -0.03 + "%";
