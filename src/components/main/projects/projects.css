@@ -11,7 +11,7 @@
     font-size: 6rem;
     font-weight: 400;
     text-shadow: var(--dark-shadow);
-    color: #fcfbf8;
+    color: rgb(0, 255, 136);
     opacity: 0;
 }
 
@@ -40,8 +40,8 @@
     margin-bottom: 60px;
     background-color: #fcfbf8;
     border-radius: 10px;
-    border-right: 10px solid var(--gold);
-    border-left: 10px solid var(--gold);
+    border-right: 10px solid rgb(0, 255, 136);
+    border-left: 10px solid rgb(0, 255, 136);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     opacity: 0;
     transition: 400ms;

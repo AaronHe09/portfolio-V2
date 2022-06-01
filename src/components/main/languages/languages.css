@@ -8,7 +8,7 @@
 /* Heading */
 
 #languages h1{
-    color: #fcfbf8;
+    color: rgb(97, 255, 242);
     font-family: var(--VT323);
     font-size: 6rem; 
     font-weight: 400;
@@ -31,8 +31,8 @@
 
     background-color: #fcfbf8; 
     border-radius: 10px;
-    border-right: 10px solid var(--gold);
-    border-left: 10px solid var(--gold);
+    border-right: 10px solid rgb(97, 255, 242);
+    border-left: 10px solid rgb(97, 255, 242);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     opacity: 0;
 }

@@ -10,7 +10,7 @@
 /* Header */
 
 #about-me h1{
-    color: #fcfbf8;
+    color: rgb(115, 255, 157);
     font-size: 6.5rem;
     font-family: var(--VT323);
     font-weight: 400;
@@ -43,8 +43,8 @@
     max-width: 1000px;
     background-color: #fcfbf8;
     border-radius: 10px;
-    border-left: 10px solid var(--gold);
-    border-right: 10px solid var(--gold);
+    border-left: 10px solid rgb(115, 255, 157);
+    border-right: 10px solid rgb(115, 255, 157);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 

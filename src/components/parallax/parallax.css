@@ -26,21 +26,21 @@
 .parallax-text h1,
 .parallax-text span
 {
+    color: #FFD166;
     text-align: center;
     font-weight: 400;
     font-family: var(--VT323);
-    text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;
+    text-shadow: var(--dark-shadow);
 }
 
 .parallax-text h1{
     font-size: 8rem;
-    color: black;
     animation: show-text 1500ms;
     margin-bottom: 20px;
 }
 
 .parallax-text span{
-    font-size: 2rem;
+    font-size: 2.3rem;
     letter-spacing: 1px;
     opacity: 0;
     animation: flicker 800ms 1000ms forwards;
