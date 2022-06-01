@@ -1,14 +1,15 @@
 .menu{
     display: none;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .bar{
     display: block;
     background-color: var(--light-grey);
-    width: 25px;
-    height: 3px;
-    margin: 5px 0;
+    width: 50px;
+    height: 4px;
+    margin: 10px 0;
     transition: 300ms ease-in-out;
 }
 
