@@ -21,7 +21,7 @@
 }
 
 #footer h1.reveal.active{
-    animation: flicker 1500ms 300ms forwards; 
+    animation: flicker 800ms 300ms forwards; 
 }
 
 /* Form */
