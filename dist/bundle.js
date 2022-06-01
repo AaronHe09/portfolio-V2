@@ -99,7 +99,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#about-me{\n    position: relative;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 50px 10px;\n    background:linear-gradient(to bottom, rgb(8 5 19) 15%, rgba(0, 0, 0, 0.11)) ;\n}\n\n/* Header */\n\n#about-me h1{\n    color: white;\n    font-size: 6.5rem;\n    font-family: var(--VT323);\n    font-weight: 400;\n    text-align: center;\n    opacity: 0;\n}\n\n#about-me h1.reveal.active{\n    animation: flicker 1500ms forwards 300ms;\n}\n\n/* About Container */\n\n.about-container{\n    display: flex;\n    align-items: center;\n    column-gap: 25px;\n    opacity: 0;\n}\n\n.about-container.reveal.active{\n    animation: scale-animation 800ms 400ms forwards;\n}\n\n/* About me */\n\n.about{\n    padding: 20px;\n    max-width: 500px;\n    background-color: black;\n    border-radius: 10px;\n    border-left: 10px solid var(--gold);\n    border-right: 10px solid var(--gold);\n}\n\n.about p,\n.about p span{\n    font-family: var(--VT323);\n    font-weight: 400;\n    font-size: 1.45rem;\n    line-height: 1.2;\n    color: white;\n}\n\n.about p :nth-child(1){\n    color: \trgb(250, 68, 84);\n}\n\n.about p :nth-child(2){\n    color: blueviolet;\n}\n\n.about p :nth-child(3){\n    color: \tpink;\n}\n\n.about p :nth-child(4){\n    color: \tlightskyblue;\n}\n\n/* Player */\n\n.player-content{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    opacity: 0\n}\n\n.player-content.reveal.active{\n    animation: scale-animation 800ms forwards 400ms;\n}\n\n.player-content img{\n   width: 300px;\n}\n\n/* Keyframe */\n\n@keyframes scale-animation{\n    from{\n        opacity: 0;\n        transform: scale(0);\n    }\n    to{\n        opacity: 1;\n        transform: scale(1);\n    }\n}\n\n/* Media */\n\n@media screen and (max-width: 830px) {\n    .about-container{\n        flex-direction: column;\n    }\n}", "",{"version":3,"sources":["webpack://./src/components/main/about/about.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,kBAAkB;IAClB,4EAA4E;AAChF;;AAEA,WAAW;;AAEX;IACI,YAAY;IACZ,iBAAiB;IACjB,yBAAyB;IACzB,gBAAgB;IAChB,kBAAkB;IAClB,UAAU;AACd;;AAEA;IACI,wCAAwC;AAC5C;;AAEA,oBAAoB;;AAEpB;IACI,aAAa;IACb,mBAAmB;IACnB,gBAAgB;IAChB,UAAU;AACd;;AAEA;IACI,+CAA+C;AACnD;;AAEA,aAAa;;AAEb;IACI,aAAa;IACb,gBAAgB;IAChB,uBAAuB;IACvB,mBAAmB;IACnB,mCAAmC;IACnC,oCAAoC;AACxC;;AAEA;;IAEI,yBAAyB;IACzB,gBAAgB;IAChB,kBAAkB;IAClB,gBAAgB;IAChB,YAAY;AAChB;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,oBAAoB;AACxB;;AAEA,WAAW;;AAEX;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB;AACJ;;AAEA;IACI,+CAA+C;AACnD;;AAEA;GACG,YAAY;AACf;;AAEA,aAAa;;AAEb;IACI;QACI,UAAU;QACV,mBAAmB;IACvB;IACA;QACI,UAAU;QACV,mBAAmB;IACvB;AACJ;;AAEA,UAAU;;AAEV;IACI;QACI,sBAAsB;IAC1B;AACJ","sourcesContent":["#about-me{\n    position: relative;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 50px 10px;\n    background:linear-gradient(to bottom, rgb(8 5 19) 15%, rgba(0, 0, 0, 0.11)) ;\n}\n\n/* Header */\n\n#about-me h1{\n    color: white;\n    font-size: 6.5rem;\n    font-family: var(--VT323);\n    font-weight: 400;\n    text-align: center;\n    opacity: 0;\n}\n\n#about-me h1.reveal.active{\n    animation: flicker 1500ms forwards 300ms;\n}\n\n/* About Container */\n\n.about-container{\n    display: flex;\n    align-items: center;\n    column-gap: 25px;\n    opacity: 0;\n}\n\n.about-container.reveal.active{\n    animation: scale-animation 800ms 400ms forwards;\n}\n\n/* About me */\n\n.about{\n    padding: 20px;\n    max-width: 500px;\n    background-color: black;\n    border-radius: 10px;\n    border-left: 10px solid var(--gold);\n    border-right: 10px solid var(--gold);\n}\n\n.about p,\n.about p span{\n    font-family: var(--VT323);\n    font-weight: 400;\n    font-size: 1.45rem;\n    line-height: 1.2;\n    color: white;\n}\n\n.about p :nth-child(1){\n    color: \trgb(250, 68, 84);\n}\n\n.about p :nth-child(2){\n    color: blueviolet;\n}\n\n.about p :nth-child(3){\n    color: \tpink;\n}\n\n.about p :nth-child(4){\n    color: \tlightskyblue;\n}\n\n/* Player */\n\n.player-content{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    opacity: 0\n}\n\n.player-content.reveal.active{\n    animation: scale-animation 800ms forwards 400ms;\n}\n\n.player-content img{\n   width: 300px;\n}\n\n/* Keyframe */\n\n@keyframes scale-animation{\n    from{\n        opacity: 0;\n        transform: scale(0);\n    }\n    to{\n        opacity: 1;\n        transform: scale(1);\n    }\n}\n\n/* Media */\n\n@media screen and (max-width: 830px) {\n    .about-container{\n        flex-direction: column;\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "#about-me{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin: auto;\n    padding: 50px 10px;\n    background-image: linear-gradient(to bottom, rgb(8 5 19), #eaeaea);\n}\n\n/* Header */\n\n#about-me h1{\n    color: #fcfbf8;\n    font-size: 6.5rem;\n    font-family: var(--VT323);\n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    text-align: center;\n    opacity: 0;\n}\n\n#about-me h1.reveal.active{\n    animation: flicker 1500ms forwards 300ms;\n}\n\n/* About Container */\n\n.about-container{\n    display: flex;\n    align-items: center;\n    column-gap: 25px;\n    opacity: 0;\n}\n\n.about-container.reveal.active{\n    animation: scale-animation 800ms 400ms forwards;\n}\n\n/* About me */\n\n.about{\n    padding: 20px;\n    max-width: 1000px;\n    background-color: #fcfbf8;\n    border-radius: 10px;\n    border-left: 10px solid var(--gold);\n    border-right: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n}\n\n.about p,\n.about p span{\n    font-family: var(--VT323);\n    font-weight: 400;\n    font-size: 1.45rem;\n    line-height: 1.2;\n    color: black;\n}\n\n.about p :nth-child(1){\n    color: \trgb(250, 68, 84);\n}\n\n.about p :nth-child(2){\n    color: blueviolet;\n}\n\n.about p :nth-child(3){\n    color: \tpink;\n}\n\n.about p :nth-child(4){\n    color: \tlightskyblue;\n}\n\n/* Player */\n\n.player-content{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    opacity: 0\n}\n\n.player-content.reveal.active{\n    animation: scale-animation 800ms forwards 400ms;\n}\n\n.player-content img{\n   width: 300px;\n}\n\n/* Keyframe */\n\n@keyframes scale-animation{\n    from{\n        opacity: 0;\n        transform: scale(0);\n    }\n    to{\n        opacity: 1;\n        transform: scale(1);\n    }\n}\n\n/* Media */\n\n@media screen and (max-width: 830px) {\n    .about-container{\n        flex-direction: column;\n    }\n}", "",{"version":3,"sources":["webpack://./src/components/main/about/about.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,YAAY;IACZ,kBAAkB;IAClB,kEAAkE;AACtE;;AAEA,WAAW;;AAEX;IACI,cAAc;IACd,iBAAiB;IACjB,yBAAyB;IACzB,gBAAgB;IAChB,+BAA+B;IAC/B,kBAAkB;IAClB,UAAU;AACd;;AAEA;IACI,wCAAwC;AAC5C;;AAEA,oBAAoB;;AAEpB;IACI,aAAa;IACb,mBAAmB;IACnB,gBAAgB;IAChB,UAAU;AACd;;AAEA;IACI,+CAA+C;AACnD;;AAEA,aAAa;;AAEb;IACI,aAAa;IACb,iBAAiB;IACjB,yBAAyB;IACzB,mBAAmB;IACnB,mCAAmC;IACnC,oCAAoC;IACpC,iDAAiD;AACrD;;AAEA;;IAEI,yBAAyB;IACzB,gBAAgB;IAChB,kBAAkB;IAClB,gBAAgB;IAChB,YAAY;AAChB;;AAEA;IACI,wBAAwB;AAC5B;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,oBAAoB;AACxB;;AAEA,WAAW;;AAEX;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB;AACJ;;AAEA;IACI,+CAA+C;AACnD;;AAEA;GACG,YAAY;AACf;;AAEA,aAAa;;AAEb;IACI;QACI,UAAU;QACV,mBAAmB;IACvB;IACA;QACI,UAAU;QACV,mBAAmB;IACvB;AACJ;;AAEA,UAAU;;AAEV;IACI;QACI,sBAAsB;IAC1B;AACJ","sourcesContent":["#about-me{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin: auto;\n    padding: 50px 10px;\n    background-image: linear-gradient(to bottom, rgb(8 5 19), #eaeaea);\n}\n\n/* Header */\n\n#about-me h1{\n    color: #fcfbf8;\n    font-size: 6.5rem;\n    font-family: var(--VT323);\n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    text-align: center;\n    opacity: 0;\n}\n\n#about-me h1.reveal.active{\n    animation: flicker 1500ms forwards 300ms;\n}\n\n/* About Container */\n\n.about-container{\n    display: flex;\n    align-items: center;\n    column-gap: 25px;\n    opacity: 0;\n}\n\n.about-container.reveal.active{\n    animation: scale-animation 800ms 400ms forwards;\n}\n\n/* About me */\n\n.about{\n    padding: 20px;\n    max-width: 1000px;\n    background-color: #fcfbf8;\n    border-radius: 10px;\n    border-left: 10px solid var(--gold);\n    border-right: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n}\n\n.about p,\n.about p span{\n    font-family: var(--VT323);\n    font-weight: 400;\n    font-size: 1.45rem;\n    line-height: 1.2;\n    color: black;\n}\n\n.about p :nth-child(1){\n    color: \trgb(250, 68, 84);\n}\n\n.about p :nth-child(2){\n    color: blueviolet;\n}\n\n.about p :nth-child(3){\n    color: \tpink;\n}\n\n.about p :nth-child(4){\n    color: \tlightskyblue;\n}\n\n/* Player */\n\n.player-content{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    opacity: 0\n}\n\n.player-content.reveal.active{\n    animation: scale-animation 800ms forwards 400ms;\n}\n\n.player-content img{\n   width: 300px;\n}\n\n/* Keyframe */\n\n@keyframes scale-animation{\n    from{\n        opacity: 0;\n        transform: scale(0);\n    }\n    to{\n        opacity: 1;\n        transform: scale(1);\n    }\n}\n\n/* Media */\n\n@media screen and (max-width: 830px) {\n    .about-container{\n        flex-direction: column;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -136,7 +136,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#languages{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 100px 0 50px 0;\n    background-color: rgba(0, 0, 0, 0.1);\n}\n\n/* Heading */\n\n#languages h1{\n    color: var(--light-grey);\n    font-family: var(--VT323);\n    font-size: 6rem; \n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    margin-bottom: 20px;\n    opacity: 0;\n}\n\n\n/* Card content */\n\n.languages-content{\n    display: grid;\n    justify-content: center;\n    grid-template-columns: repeat(4, minmax(50px, 100px));\n    column-gap: 35px; \n\n    margin-top: 20px;\n    padding: 50px;\n    max-width: 650px;\n    width: 100%;\n\n    background-color: black;\n    border-radius: 10px;\n    border-right: 10px solid var(--gold);\n    border-left: 10px solid var(--gold);\n\n    opacity: 0;\n}\n\n/* div */\n\n.languages-content div{\n    position: relative;\n    transition: 300ms;\n    overflow: hidden;\n}\n\n.languages-content div::before{\n    position: absolute;\n    display: block;\n    content: ''; \n    top: 0;\n    left: 0;\n\n    /* border */\n    border-bottom: 3px solid var(--light-grey);\n\n    /* image */\n    background-repeat: no-repeat;\n    background-size: 100%; \n    width: 100%;\n    height: 0;\n    opacity: 1;\n    transition: 400ms;\n}\n\n/* Html */\n.languages-content div.html::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n/* Css */\n.languages-content div.css::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n.languages-content div.js::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n\n.languages-content div.react::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n}\n\n/* Hover */\n.languages-content div:hover::before{\n    height: 100%;\n}\n\n.languages-content img{\n    width: 100%;\n}\n\n/* Scroll Animations */\n\n#languages h1.reveal.active{\n    animation: flicker 1000ms 300ms forwards; \n}\n\n.languages-content.reveal.active{\n    animation: scale-animation 800ms  400ms forwards;\n}\n\n/* Media */\n\n@media screen and (max-width: 500px) {\n    #languages h1{\n        font-size: 5.5rem;\n    }\n}\n\n@media screen and (max-width: 430px) {\n    #languages h1{\n        font-size: 4.5rem;\n    }\n}", "",{"version":3,"sources":["webpack://./src/components/main/languages/languages.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,uBAAuB;IACvB,oCAAoC;AACxC;;AAEA,YAAY;;AAEZ;IACI,wBAAwB;IACxB,yBAAyB;IACzB,eAAe;IACf,gBAAgB;IAChB,+BAA+B;IAC/B,mBAAmB;IACnB,UAAU;AACd;;;AAGA,iBAAiB;;AAEjB;IACI,aAAa;IACb,uBAAuB;IACvB,qDAAqD;IACrD,gBAAgB;;IAEhB,gBAAgB;IAChB,aAAa;IACb,gBAAgB;IAChB,WAAW;;IAEX,uBAAuB;IACvB,mBAAmB;IACnB,oCAAoC;IACpC,mCAAmC;;IAEnC,UAAU;AACd;;AAEA,QAAQ;;AAER;IACI,kBAAkB;IAClB,iBAAiB;IACjB,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;IAClB,cAAc;IACd,WAAW;IACX,MAAM;IACN,OAAO;;IAEP,WAAW;IACX,0CAA0C;;IAE1C,UAAU;IACV,4BAA4B;IAC5B,qBAAqB;IACrB,WAAW;IACX,SAAS;IACT,UAAU;IACV,iBAAiB;AACrB;;AAEA,SAAS;AACT;IACI,yDAAyD;AAC7D;;AAEA,QAAQ;AACR;IACI,yDAAwD;AAC5D;;AAEA;IACI,yDAAuD;AAC3D;;AAEA;IACI,yDAA0D;AAC9D;;AAEA,UAAU;AACV;IACI,YAAY;AAChB;;AAEA;IACI,WAAW;AACf;;AAEA,sBAAsB;;AAEtB;IACI,wCAAwC;AAC5C;;AAEA;IACI,gDAAgD;AACpD;;AAEA,UAAU;;AAEV;IACI;QACI,iBAAiB;IACrB;AACJ;;AAEA;IACI;QACI,iBAAiB;IACrB;AACJ","sourcesContent":["#languages{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 100px 0 50px 0;\n    background-color: rgba(0, 0, 0, 0.1);\n}\n\n/* Heading */\n\n#languages h1{\n    color: var(--light-grey);\n    font-family: var(--VT323);\n    font-size: 6rem; \n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    margin-bottom: 20px;\n    opacity: 0;\n}\n\n\n/* Card content */\n\n.languages-content{\n    display: grid;\n    justify-content: center;\n    grid-template-columns: repeat(4, minmax(50px, 100px));\n    column-gap: 35px; \n\n    margin-top: 20px;\n    padding: 50px;\n    max-width: 650px;\n    width: 100%;\n\n    background-color: black;\n    border-radius: 10px;\n    border-right: 10px solid var(--gold);\n    border-left: 10px solid var(--gold);\n\n    opacity: 0;\n}\n\n/* div */\n\n.languages-content div{\n    position: relative;\n    transition: 300ms;\n    overflow: hidden;\n}\n\n.languages-content div::before{\n    position: absolute;\n    display: block;\n    content: ''; \n    top: 0;\n    left: 0;\n\n    /* border */\n    border-bottom: 3px solid var(--light-grey);\n\n    /* image */\n    background-repeat: no-repeat;\n    background-size: 100%; \n    width: 100%;\n    height: 0;\n    opacity: 1;\n    transition: 400ms;\n}\n\n/* Html */\n.languages-content div.html::before{\n    background-image: url('/src/assets/languages/html-c.png');\n}\n\n/* Css */\n.languages-content div.css::before{\n    background-image: url('/src/assets/languages/css-c.png');\n}\n\n.languages-content div.js::before{\n    background-image: url('/src/assets/languages/js-c.png');\n}\n\n.languages-content div.react::before{\n    background-image: url('/src/assets/languages/react-c.png');\n}\n\n/* Hover */\n.languages-content div:hover::before{\n    height: 100%;\n}\n\n.languages-content img{\n    width: 100%;\n}\n\n/* Scroll Animations */\n\n#languages h1.reveal.active{\n    animation: flicker 1000ms 300ms forwards; \n}\n\n.languages-content.reveal.active{\n    animation: scale-animation 800ms  400ms forwards;\n}\n\n/* Media */\n\n@media screen and (max-width: 500px) {\n    #languages h1{\n        font-size: 5.5rem;\n    }\n}\n\n@media screen and (max-width: 430px) {\n    #languages h1{\n        font-size: 4.5rem;\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "#languages{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 50px 10px; \n    background-color: #eaeaea;\n}\n/* Heading */\n\n#languages h1{\n    color: #fcfbf8;\n    font-family: var(--VT323);\n    font-size: 6rem; \n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    margin-bottom: 20px;\n    opacity: 0;\n}\n\n\n/* Card content */\n\n.languages-content{\n    display: grid;\n    justify-content: center;\n    grid-template-columns: repeat(4, minmax(60px, 80px));\n    column-gap: 10%; \n\n    margin-top: 20px;\n    padding: 20px;\n    max-width: 1000px;\n    width: 100%;\n\n    background-color: #fcfbf8; \n    border-radius: 10px;\n    border-right: 10px solid var(--gold);\n    border-left: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n    opacity: 0;\n}\n\n/* div */\n\n.languages-content div{\n    position: relative;\n    transition: 300ms;\n    overflow: hidden;\n}\n\n.languages-content div::before{\n    position: absolute;\n    display: block;\n    content: ''; \n    top: 0;\n    left: 0;\n\n    /* border */\n    border-bottom: 3px solid var(--gold);\n\n    /* image */\n    background-repeat: no-repeat;\n    background-size: 100%; \n    width: 100%;\n    height: 0;\n    opacity: 1;\n    transition: 400ms;\n}\n\n/* Image */\n\n.pc{\n    opacity: 0;\n}\n\n.pc img{\n    width: 250px;\n}\n\n/* Html */\n.languages-content div.html::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n/* Css */\n.languages-content div.css::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\n.languages-content div.js::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n}\n\n.languages-content div.react::before{\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\n}\n\n/* Hover */\n.languages-content div:hover::before{\n    height: 100%;\n}\n\n.languages-content img{\n    width: 100%;\n}\n\n/* Scroll Animations */\n\n#languages h1.reveal.active{\n    animation: flicker 1000ms 300ms forwards; \n}\n\n.languages-content.reveal.active{\n    animation: scale-animation 800ms  400ms forwards;\n}\n\n.pc.reveal.active{\n    animation: scale-animation 800ms 400ms forwards; \n}\n\n/* Media */\n\n@media screen and (max-width: 500px) {\n    #languages h1{\n        font-size: 5.5rem;\n    }\n}\n\n@media screen and (max-width: 430px) {\n    #languages h1{\n        font-size: 4.5rem;\n    }\n}", "",{"version":3,"sources":["webpack://./src/components/main/languages/languages.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,kBAAkB;IAClB,yBAAyB;AAC7B;AACA,YAAY;;AAEZ;IACI,cAAc;IACd,yBAAyB;IACzB,eAAe;IACf,gBAAgB;IAChB,+BAA+B;IAC/B,mBAAmB;IACnB,UAAU;AACd;;;AAGA,iBAAiB;;AAEjB;IACI,aAAa;IACb,uBAAuB;IACvB,oDAAoD;IACpD,eAAe;;IAEf,gBAAgB;IAChB,aAAa;IACb,iBAAiB;IACjB,WAAW;;IAEX,yBAAyB;IACzB,mBAAmB;IACnB,oCAAoC;IACpC,mCAAmC;IACnC,iDAAiD;IACjD,UAAU;AACd;;AAEA,QAAQ;;AAER;IACI,kBAAkB;IAClB,iBAAiB;IACjB,gBAAgB;AACpB;;AAEA;IACI,kBAAkB;IAClB,cAAc;IACd,WAAW;IACX,MAAM;IACN,OAAO;;IAEP,WAAW;IACX,oCAAoC;;IAEpC,UAAU;IACV,4BAA4B;IAC5B,qBAAqB;IACrB,WAAW;IACX,SAAS;IACT,UAAU;IACV,iBAAiB;AACrB;;AAEA,UAAU;;AAEV;IACI,UAAU;AACd;;AAEA;IACI,YAAY;AAChB;;AAEA,SAAS;AACT;IACI,yDAAyD;AAC7D;;AAEA,QAAQ;AACR;IACI,yDAAwD;AAC5D;;AAEA;IACI,yDAAuD;AAC3D;;AAEA;IACI,yDAA0D;AAC9D;;AAEA,UAAU;AACV;IACI,YAAY;AAChB;;AAEA;IACI,WAAW;AACf;;AAEA,sBAAsB;;AAEtB;IACI,wCAAwC;AAC5C;;AAEA;IACI,gDAAgD;AACpD;;AAEA;IACI,+CAA+C;AACnD;;AAEA,UAAU;;AAEV;IACI;QACI,iBAAiB;IACrB;AACJ;;AAEA;IACI;QACI,iBAAiB;IACrB;AACJ","sourcesContent":["#languages{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 50px 10px; \n    background-color: #eaeaea;\n}\n/* Heading */\n\n#languages h1{\n    color: #fcfbf8;\n    font-family: var(--VT323);\n    font-size: 6rem; \n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    margin-bottom: 20px;\n    opacity: 0;\n}\n\n\n/* Card content */\n\n.languages-content{\n    display: grid;\n    justify-content: center;\n    grid-template-columns: repeat(4, minmax(60px, 80px));\n    column-gap: 10%; \n\n    margin-top: 20px;\n    padding: 20px;\n    max-width: 1000px;\n    width: 100%;\n\n    background-color: #fcfbf8; \n    border-radius: 10px;\n    border-right: 10px solid var(--gold);\n    border-left: 10px solid var(--gold);\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n    opacity: 0;\n}\n\n/* div */\n\n.languages-content div{\n    position: relative;\n    transition: 300ms;\n    overflow: hidden;\n}\n\n.languages-content div::before{\n    position: absolute;\n    display: block;\n    content: ''; \n    top: 0;\n    left: 0;\n\n    /* border */\n    border-bottom: 3px solid var(--gold);\n\n    /* image */\n    background-repeat: no-repeat;\n    background-size: 100%; \n    width: 100%;\n    height: 0;\n    opacity: 1;\n    transition: 400ms;\n}\n\n/* Image */\n\n.pc{\n    opacity: 0;\n}\n\n.pc img{\n    width: 250px;\n}\n\n/* Html */\n.languages-content div.html::before{\n    background-image: url('/src/assets/languages/html-c.png');\n}\n\n/* Css */\n.languages-content div.css::before{\n    background-image: url('/src/assets/languages/css-c.png');\n}\n\n.languages-content div.js::before{\n    background-image: url('/src/assets/languages/js-c.png');\n}\n\n.languages-content div.react::before{\n    background-image: url('/src/assets/languages/react-c.png');\n}\n\n/* Hover */\n.languages-content div:hover::before{\n    height: 100%;\n}\n\n.languages-content img{\n    width: 100%;\n}\n\n/* Scroll Animations */\n\n#languages h1.reveal.active{\n    animation: flicker 1000ms 300ms forwards; \n}\n\n.languages-content.reveal.active{\n    animation: scale-animation 800ms  400ms forwards;\n}\n\n.pc.reveal.active{\n    animation: scale-animation 800ms 400ms forwards; \n}\n\n/* Media */\n\n@media screen and (max-width: 500px) {\n    #languages h1{\n        font-size: 5.5rem;\n    }\n}\n\n@media screen and (max-width: 430px) {\n    #languages h1{\n        font-size: 4.5rem;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -157,17 +157,38 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
-
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../../../src/assets/rain.gif */ "./src/assets/rain.gif"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "#main{\n    position: relative;\n    width: 100%;\n}\n\n#rain{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-size: 100%;\n    object-fit: cover;\n}", "",{"version":3,"sources":["webpack://./src/components/main/main.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,WAAW;AACf;;AAEA;IACI,kBAAkB;IAClB,MAAM;IACN,OAAO;IACP,WAAW;IACX,yDAA2C;IAC3C,qBAAqB;IACrB,iBAAiB;AACrB","sourcesContent":["#main{\n    position: relative;\n    width: 100%;\n}\n\n#rain{\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    background-image: url(/src/assets/rain.gif);\n    background-size: 100%;\n    object-fit: cover;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "#main{\n    position: relative;\n    width: 100%;\n}\n", "",{"version":3,"sources":["webpack://./src/components/main/main.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,WAAW;AACf","sourcesContent":["#main{\n    position: relative;\n    width: 100%;\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/components/main/projects/projects.css":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/components/main/projects/projects.css ***!
+  \*****************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "#projects{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 50px 10px;\n    background-color: #eaeaea;\n}\n\n#projects h1{\n    font-family: var(--VT323);\n    font-size: 6rem;\n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    color: #fcfbf8;\n    margin-bottom: 50px;\n    opacity: 0;\n}\n\n#projects h1.reveal.active{\n    animation: flicker 1000ms 400ms forwards; \n}\n\n.projects-content{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    max-width: 1000px;\n    width: 100%;\n}\n\n.project{\n    font-size: 3rem;\n    font-family: var(--VT323);\n    font-weight: 400;\n    text-align: center;\n    width: 100%;\n    height: 300px;\n    padding: 50px;\n    margin-bottom: 60px;\n    background-color: #fcfbf8;\n    border-radius: 10px;\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n    opacity: 0;\n    transition: 400ms;\n}\n\n.project.reveal.active{\n    animation: show 800ms 400ms forwards;\n}\n\n.project:hover{\n    transform: scale(1.05);\n    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n}\n\n\n\n@keyframes show{\n    from{\n        opacity: 0;\n    }\n    to{\n        opacity: 1;\n    }\n}", "",{"version":3,"sources":["webpack://./src/components/main/projects/projects.css"],"names":[],"mappings":"AAAA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,kBAAkB;IAClB,yBAAyB;AAC7B;;AAEA;IACI,yBAAyB;IACzB,eAAe;IACf,gBAAgB;IAChB,+BAA+B;IAC/B,cAAc;IACd,mBAAmB;IACnB,UAAU;AACd;;AAEA;IACI,wCAAwC;AAC5C;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,iBAAiB;IACjB,WAAW;AACf;;AAEA;IACI,eAAe;IACf,yBAAyB;IACzB,gBAAgB;IAChB,kBAAkB;IAClB,WAAW;IACX,aAAa;IACb,aAAa;IACb,mBAAmB;IACnB,yBAAyB;IACzB,mBAAmB;IACnB,iDAAiD;IACjD,UAAU;IACV,iBAAiB;AACrB;;AAEA;IACI,oCAAoC;AACxC;;AAEA;IACI,sBAAsB;IACtB,4CAA4C;AAChD;;;;AAIA;IACI;QACI,UAAU;IACd;IACA;QACI,UAAU;IACd;AACJ","sourcesContent":["#projects{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding: 50px 10px;\n    background-color: #eaeaea;\n}\n\n#projects h1{\n    font-family: var(--VT323);\n    font-size: 6rem;\n    font-weight: 400;\n    text-shadow: var(--dark-shadow);\n    color: #fcfbf8;\n    margin-bottom: 50px;\n    opacity: 0;\n}\n\n#projects h1.reveal.active{\n    animation: flicker 1000ms 400ms forwards; \n}\n\n.projects-content{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    max-width: 1000px;\n    width: 100%;\n}\n\n.project{\n    font-size: 3rem;\n    font-family: var(--VT323);\n    font-weight: 400;\n    text-align: center;\n    width: 100%;\n    height: 300px;\n    padding: 50px;\n    margin-bottom: 60px;\n    background-color: #fcfbf8;\n    border-radius: 10px;\n    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;\n    opacity: 0;\n    transition: 400ms;\n}\n\n.project.reveal.active{\n    animation: show 800ms 400ms forwards;\n}\n\n.project:hover{\n    transform: scale(1.05);\n    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n}\n\n\n\n@keyframes show{\n    from{\n        opacity: 0;\n    }\n    to{\n        opacity: 1;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -764,6 +785,60 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/components/main/projects/projects.css":
+/*!***************************************************!*\
+  !*** ./src/components/main/projects/projects.css ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_projects_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js!./projects.css */ "./node_modules/css-loader/dist/cjs.js!./src/components/main/projects/projects.css");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_projects_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_projects_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_projects_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_projects_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
 /***/ "./src/components/parallax/parallax.css":
 /*!**********************************************!*\
   !*** ./src/components/parallax/parallax.css ***!
@@ -1296,12 +1371,15 @@ function renderCharacter() {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "renderLanguages": () => (/* binding */ renderLanguages)
+/* harmony export */   "renderLanguages": () => (/* binding */ renderLanguages),
+/* harmony export */   "renderPc": () => (/* binding */ renderPc)
 /* harmony export */ });
 /* harmony import */ var _src_assets_languages_html_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../src/assets/languages/html.png */ "./src/assets/languages/html.png");
 /* harmony import */ var _src_assets_languages_css_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../src/assets/languages/css.png */ "./src/assets/languages/css.png");
 /* harmony import */ var _src_assets_languages_js_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../src/assets/languages/js.png */ "./src/assets/languages/js.png");
 /* harmony import */ var _src_assets_languages_react_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../src/assets/languages/react.png */ "./src/assets/languages/react.png");
+/* harmony import */ var _src_assets_pc_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../src/assets/pc.png */ "./src/assets/pc.png");
+
 
 
 
@@ -1326,6 +1404,14 @@ function renderLanguages() {
     container.appendChild(div);
     div.appendChild(newImage);
   });
+}
+
+function renderPc() {
+  const container = document.querySelector(".pc");
+  const newImage = new Image();
+
+  newImage.src = _src_assets_pc_png__WEBPACK_IMPORTED_MODULE_4__;
+  container.appendChild(newImage);
 }
 
 
@@ -1460,6 +1546,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_main_main_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/main/main.css */ "./src/components/main/main.css");
 /* harmony import */ var _components_main_about_about_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/main/about/about.css */ "./src/components/main/about/about.css");
 /* harmony import */ var _components_main_languages_languages_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/main/languages/languages.css */ "./src/components/main/languages/languages.css");
+/* harmony import */ var _components_main_projects_projects_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/main/projects/projects.css */ "./src/components/main/projects/projects.css");
 
 
 /* preloader */
@@ -1474,6 +1561,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* body */
+
 
 
 
@@ -1631,6 +1719,16 @@ module.exports = __webpack_require__.p + "5ccb3ec26b0623e1ae5a.gif";
 
 /***/ }),
 
+/***/ "./src/assets/pc.png":
+/*!***************************!*\
+  !*** ./src/assets/pc.png ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "8bbe98d4bd63bf50999e.png";
+
+/***/ }),
+
 /***/ "./src/assets/player.gif":
 /*!*******************************!*\
   !*** ./src/assets/player.gif ***!
@@ -1638,16 +1736,6 @@ module.exports = __webpack_require__.p + "5ccb3ec26b0623e1ae5a.gif";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "036a45930159dde8d3f7.gif";
-
-/***/ }),
-
-/***/ "./src/assets/rain.gif":
-/*!*****************************!*\
-  !*** ./src/assets/rain.gif ***!
-  \*****************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "7014f31d1b758108e8c6.gif";
 
 /***/ })
 
@@ -1823,6 +1911,7 @@ __webpack_require__.r(__webpack_exports__);
 /* Main */
 (0,_components_main_about_about_js__WEBPACK_IMPORTED_MODULE_1__.renderCharacter)();
 (0,_components_main_languages_languages_js__WEBPACK_IMPORTED_MODULE_5__.renderLanguages)();
+(0,_components_main_languages_languages_js__WEBPACK_IMPORTED_MODULE_5__.renderPc)();
 
 })();
 

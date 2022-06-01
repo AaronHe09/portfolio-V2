@@ -15,3 +15,4 @@ import "./components/parallax/parallax.css";
 import "./components/main/main.css";
 import "./components/main/about/about.css";
 import "./components/main/languages/languages.css";
+import "./components/main/projects/projects.css";

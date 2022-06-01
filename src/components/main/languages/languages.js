@@ -2,6 +2,7 @@ import html from "/src/assets/languages/html.png";
 import css from "/src/assets/languages/css.png";
 import js from "/src/assets/languages/js.png";
 import react from "/src/assets/languages/react.png";
+import pc from "/src/assets/pc.png";
 
 const languagesArray = [
   { url: html, class: "html" },
@@ -22,4 +23,12 @@ export function renderLanguages() {
     container.appendChild(div);
     div.appendChild(newImage);
   });
+}
+
+export function renderPc() {
+  const container = document.querySelector(".pc");
+  const newImage = new Image();
+
+  newImage.src = pc;
+  container.appendChild(newImage);
 }

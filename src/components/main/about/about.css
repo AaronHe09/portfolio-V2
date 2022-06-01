@@ -1,19 +1,20 @@
 #about-me{
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
     padding: 50px 10px;
-    background:linear-gradient(to bottom, rgb(8 5 19) 15%, rgba(0, 0, 0, 0.11)) ;
+    background-image: linear-gradient(to bottom, rgb(8 5 19), #eaeaea);
 }
 
 /* Header */
 
 #about-me h1{
-    color: white;
+    color: #fcfbf8;
     font-size: 6.5rem;
     font-family: var(--VT323);
     font-weight: 400;
+    text-shadow: var(--dark-shadow);
     text-align: center;
     opacity: 0;
 }
@@ -39,11 +40,12 @@
 
 .about{
     padding: 20px;
-    max-width: 500px;
-    background-color: black;
+    max-width: 1000px;
+    background-color: #fcfbf8;
     border-radius: 10px;
     border-left: 10px solid var(--gold);
     border-right: 10px solid var(--gold);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .about p,
@@ -52,7 +54,7 @@
     font-weight: 400;
     font-size: 1.45rem;
     line-height: 1.2;
-    color: white;
+    color: black;
 }
 
 .about p :nth-child(1){

@@ -2,13 +2,3 @@
     position: relative;
     width: 100%;
 }
-
-#rain{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-image: url(/src/assets/rain.gif);
-    background-size: 100%;
-    object-fit: cover;
-}

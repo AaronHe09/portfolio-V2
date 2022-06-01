@@ -3,7 +3,10 @@ import { renderCharacter } from "./components/main/about/about.js";
 import { parallaxEffect, renderPics } from "./components/parallax/parallax.js";
 import { preloader } from "./components/pre-loader/pre.loader.js";
 import { scrollHandler } from "./components/scroll/scroll.js";
-import { renderLanguages } from "./components/main/languages/languages.js";
+import {
+  renderLanguages,
+  renderPc,
+} from "./components/main/languages/languages.js";
 import "./styles.js";
 
 /* preloader  */
@@ -22,3 +25,4 @@ parallaxEffect();
 /* Main */
 renderCharacter();
 renderLanguages();
+renderPc();
