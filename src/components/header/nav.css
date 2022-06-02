@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    padding: 50px 150PX;
+    padding: 50px 70px;
     animation: nav-loader 1000ms;
 }
 
