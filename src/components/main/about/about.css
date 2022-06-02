@@ -57,20 +57,20 @@
     color: black;
 }
 
-.about p :nth-child(1){
+.about p :nth-child(3){
     color: 	rgb(250, 68, 84);
 }
 
-.about p :nth-child(2){
-    color: blueviolet;
-}
-
-.about p :nth-child(3){
-    color: 	pink;
-}
-
 .about p :nth-child(4){
-    color: 	lightskyblue;
+    color: rgb(132, 0, 255);
+}
+
+.about p :nth-child(1){
+    color: 	rgb(255, 0, 200);
+}
+
+.about p :nth-child(2){
+    color: 	rgb(40, 172, 255);
 }
 
 /* Player */
