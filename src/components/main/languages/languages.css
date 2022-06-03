@@ -101,15 +101,15 @@
 /* Scroll Animations */
 
 #languages h1.reveal.active{
-    animation: flicker 800ms 300ms forwards; 
+    animation: flicker 800ms forwards; 
 }
 
 .languages-content.reveal.active{
-    animation: scale-animation 800ms  400ms forwards;
+    animation: scale-animation 800ms forwards;
 }
 
 .book.reveal.active{
-    animation: scale-animation 800ms 400ms forwards; 
+    animation: scale-animation 800ms forwards; 
 }
 
 /* Media */

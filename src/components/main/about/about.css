@@ -20,7 +20,7 @@
 }
 
 #about-me h1.reveal.active{
-    animation: flicker 800ms 300ms forwards;
+    animation: flicker 800ms forwards;
 }
 
 /* About Container */
@@ -83,7 +83,7 @@
 }
 
 .player-content.reveal.active{
-    animation: scale-animation 800ms forwards 400ms;
+    animation: scale-animation 800ms forwards;
 }
 
 .player-content img{
